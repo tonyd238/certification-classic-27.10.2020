@@ -21,6 +21,7 @@ module.exports = {
     modules: [
         fromCWD('./node_modules/'),
         fromCWD('./src/'),
-        fromCWD('./src/js/')
+        fromCWD('./src/js/'),
+        fromCWD('./src/sass/')
     ]
 }

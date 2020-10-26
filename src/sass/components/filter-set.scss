@@ -1,0 +1,9 @@
+@import 'settings/all';
+
+.filter-set {
+	border-width: 0;
+	font-size: microbe-rem(14);
+	padding: microbe-em(20, 14);
+	background: $background-surface;
+	border-radius: 0.25em;
+}

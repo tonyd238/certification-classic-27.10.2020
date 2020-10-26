@@ -1,0 +1,1963 @@
+._grid {}
+._grid > * {}
+._grid--1 > * {}
+._grid--2 > * {}
+._grid--3 > * {}
+._grid--4 > * {}
+._grid--5 > * {}
+._grid--6 > * {}
+._grid--7 > * {}
+._grid--8 > * {}
+._grid--9 > * {}
+._grid--10 > * {}
+._grid--11 > * {}
+._grid--12 > * {}
+._grid--auto > * {}
+._cell {}
+._cell--1 {}
+._cell--2 {}
+._cell--3 {}
+._cell--4 {}
+._cell--5 {}
+._cell--6 {}
+._cell--7 {}
+._cell--8 {}
+._cell--9 {}
+._cell--10 {}
+._cell--11 {}
+._cell--12 {}
+._cell--auto {}
+._owl > * {}
+._owl > * + * {}
+._owl--xxs > * {}
+._owl--xs > * {}
+._owl--sm > * {}
+._owl--md > * {}
+._owl--df > * {}
+._owl--lg > * {}
+._owl--xl > * {}
+._owl--xxl > * {}
+._owl--hg > * {}
+._spacer {}
+._spacer > * {}
+._spacer--xxs {}
+._spacer--xs {}
+._spacer--sm {}
+._spacer--md {}
+._spacer--df {}
+._spacer--lg {}
+._spacer--xl {}
+._spacer--xxl {}
+._spacer--hg {}
+._flex {}
+._items-start {}
+._items-end {}
+._items-center {}
+._items-stretch {}
+._items-baseline {}
+._justify-start {}
+._justify-end {}
+._justify-center {}
+._justify-between {}
+._justify-around {}
+._self-start {}
+._self-end {}
+._self-center {}
+._self-stretch {}
+._flex-wrap {}
+._flex-nowrap {}
+._flex-column {}
+._flex-column-reverse {}
+._flex-row {}
+._flex-row-reverse {}
+._flex-grow {}
+._flex-nogrow {}
+._flex-shrink {}
+._flex-noshrink {}
+._mt-none, ._my-none, ._m-none {}
+._mr-none, ._mx-none, ._m-none {}
+._mb-none, ._my-none, ._m-none {}
+._ml-none, ._mx-none, ._m-none {}
+._mt-auto, ._my-auto, ._m-auto {}
+._mr-auto, ._mx-auto, ._m-auto {}
+._mb-auto, ._my-auto, ._m-auto {}
+._ml-auto, ._mx-auto, ._m-auto {}
+._mt-xxs, ._my-xxs, ._m-xxs {}
+._mr-xxs, ._mx-xxs, ._m-xxs {}
+._mb-xxs, ._my-xxs, ._m-xxs {}
+._ml-xxs, ._mx-xxs, ._m-xxs {}
+._nmt-xxs, ._nmy-xxs, ._nm-xxs {}
+._nmr-xxs, ._nmx-xxs, ._nm-xxs {}
+._nmb-xxs, ._nmy-xxs, ._nm-xxs {}
+._nml-xxs, ._nmx-xxs, ._nm-xxs {}
+._mt-xs, ._my-xs, ._m-xs {}
+._mr-xs, ._mx-xs, ._m-xs {}
+._mb-xs, ._my-xs, ._m-xs {}
+._ml-xs, ._mx-xs, ._m-xs {}
+._nmt-xs, ._nmy-xs, ._nm-xs {}
+._nmr-xs, ._nmx-xs, ._nm-xs {}
+._nmb-xs, ._nmy-xs, ._nm-xs {}
+._nml-xs, ._nmx-xs, ._nm-xs {}
+._mt-sm, ._my-sm, ._m-sm {}
+._mr-sm, ._mx-sm, ._m-sm {}
+._mb-sm, ._my-sm, ._m-sm {}
+._ml-sm, ._mx-sm, ._m-sm {}
+._nmt-sm, ._nmy-sm, ._nm-sm {}
+._nmr-sm, ._nmx-sm, ._nm-sm {}
+._nmb-sm, ._nmy-sm, ._nm-sm {}
+._nml-sm, ._nmx-sm, ._nm-sm {}
+._mt-md, ._my-md, ._m-md {}
+._mr-md, ._mx-md, ._m-md {}
+._mb-md, ._my-md, ._m-md {}
+._ml-md, ._mx-md, ._m-md {}
+._nmt-md, ._nmy-md, ._nm-md {}
+._nmr-md, ._nmx-md, ._nm-md {}
+._nmb-md, ._nmy-md, ._nm-md {}
+._nml-md, ._nmx-md, ._nm-md {}
+._mt-df, ._my-df, ._m-df {}
+._mr-df, ._mx-df, ._m-df {}
+._mb-df, ._my-df, ._m-df {}
+._ml-df, ._mx-df, ._m-df {}
+._nmt-df, ._nmy-df, ._nm-df {}
+._nmr-df, ._nmx-df, ._nm-df {}
+._nmb-df, ._nmy-df, ._nm-df {}
+._nml-df, ._nmx-df, ._nm-df {}
+._mt-lg, ._my-lg, ._m-lg {}
+._mr-lg, ._mx-lg, ._m-lg {}
+._mb-lg, ._my-lg, ._m-lg {}
+._ml-lg, ._mx-lg, ._m-lg {}
+._nmt-lg, ._nmy-lg, ._nm-lg {}
+._nmr-lg, ._nmx-lg, ._nm-lg {}
+._nmb-lg, ._nmy-lg, ._nm-lg {}
+._nml-lg, ._nmx-lg, ._nm-lg {}
+._mt-xl, ._my-xl, ._m-xl {}
+._mr-xl, ._mx-xl, ._m-xl {}
+._mb-xl, ._my-xl, ._m-xl {}
+._ml-xl, ._mx-xl, ._m-xl {}
+._nmt-xl, ._nmy-xl, ._nm-xl {}
+._nmr-xl, ._nmx-xl, ._nm-xl {}
+._nmb-xl, ._nmy-xl, ._nm-xl {}
+._nml-xl, ._nmx-xl, ._nm-xl {}
+._mt-xxl, ._my-xxl, ._m-xxl {}
+._mr-xxl, ._mx-xxl, ._m-xxl {}
+._mb-xxl, ._my-xxl, ._m-xxl {}
+._ml-xxl, ._mx-xxl, ._m-xxl {}
+._nmt-xxl, ._nmy-xxl, ._nm-xxl {}
+._nmr-xxl, ._nmx-xxl, ._nm-xxl {}
+._nmb-xxl, ._nmy-xxl, ._nm-xxl {}
+._nml-xxl, ._nmx-xxl, ._nm-xxl {}
+._mt-hg, ._my-hg, ._m-hg {}
+._mr-hg, ._mx-hg, ._m-hg {}
+._mb-hg, ._my-hg, ._m-hg {}
+._ml-hg, ._mx-hg, ._m-hg {}
+._nmt-hg, ._nmy-hg, ._nm-hg {}
+._nmr-hg, ._nmx-hg, ._nm-hg {}
+._nmb-hg, ._nmy-hg, ._nm-hg {}
+._nml-hg, ._nmx-hg, ._nm-hg {}
+._pt-none, ._py-none, ._p-none {}
+._pr-none, ._px-none, ._p-none {}
+._pb-none, ._py-none, ._p-none {}
+._pl-none, ._px-none, ._p-none {}
+._pt-xxs, ._py-xxs, ._p-xxs {}
+._pr-xxs, ._px-xxs, ._p-xxs {}
+._pb-xxs, ._py-xxs, ._p-xxs {}
+._pl-xxs, ._px-xxs, ._p-xxs {}
+._pt-xs, ._py-xs, ._p-xs {}
+._pr-xs, ._px-xs, ._p-xs {}
+._pb-xs, ._py-xs, ._p-xs {}
+._pl-xs, ._px-xs, ._p-xs {}
+._pt-sm, ._py-sm, ._p-sm {}
+._pr-sm, ._px-sm, ._p-sm {}
+._pb-sm, ._py-sm, ._p-sm {}
+._pl-sm, ._px-sm, ._p-sm {}
+._pt-md, ._py-md, ._p-md {}
+._pr-md, ._px-md, ._p-md {}
+._pb-md, ._py-md, ._p-md {}
+._pl-md, ._px-md, ._p-md {}
+._pt-df, ._py-df, ._p-df {}
+._pr-df, ._px-df, ._p-df {}
+._pb-df, ._py-df, ._p-df {}
+._pl-df, ._px-df, ._p-df {}
+._pt-lg, ._py-lg, ._p-lg {}
+._pr-lg, ._px-lg, ._p-lg {}
+._pb-lg, ._py-lg, ._p-lg {}
+._pl-lg, ._px-lg, ._p-lg {}
+._pt-xl, ._py-xl, ._p-xl {}
+._pr-xl, ._px-xl, ._p-xl {}
+._pb-xl, ._py-xl, ._p-xl {}
+._pl-xl, ._px-xl, ._p-xl {}
+._pt-xxl, ._py-xxl, ._p-xxl {}
+._pr-xxl, ._px-xxl, ._p-xxl {}
+._pb-xxl, ._py-xxl, ._p-xxl {}
+._pl-xxl, ._px-xxl, ._p-xxl {}
+._pt-hg, ._py-hg, ._p-hg {}
+._pr-hg, ._px-hg, ._p-hg {}
+._pb-hg, ._py-hg, ._p-hg {}
+._pl-hg, ._px-hg, ._p-hg {}
+._text-left {}
+._text-right {}
+._text-center {}
+._text-justify {}
+@media only screen and (min-width: 375px) {
+	._xxs\:grid--1 > * {}
+	._xxs\:grid--2 > * {}
+	._xxs\:grid--3 > * {}
+	._xxs\:grid--4 > * {}
+	._xxs\:grid--5 > * {}
+	._xxs\:grid--6 > * {}
+	._xxs\:grid--7 > * {}
+	._xxs\:grid--8 > * {}
+	._xxs\:grid--9 > * {}
+	._xxs\:grid--10 > * {}
+	._xxs\:grid--11 > * {}
+	._xxs\:grid--12 > * {}
+	._xxs\:grid--auto > * {}
+	._xxs\:cell--1 {}
+	._xxs\:cell--2 {}
+	._xxs\:cell--3 {}
+	._xxs\:cell--4 {}
+	._xxs\:cell--5 {}
+	._xxs\:cell--6 {}
+	._xxs\:cell--7 {}
+	._xxs\:cell--8 {}
+	._xxs\:cell--9 {}
+	._xxs\:cell--10 {}
+	._xxs\:cell--11 {}
+	._xxs\:cell--12 {}
+	._xxs\:cell--auto {}
+	._xxs\:owl--xxs > * {}
+	._xxs\:owl--xs > * {}
+	._xxs\:owl--sm > * {}
+	._xxs\:owl--md > * {}
+	._xxs\:owl--df > * {}
+	._xxs\:owl--lg > * {}
+	._xxs\:owl--xl > * {}
+	._xxs\:owl--xxl > * {}
+	._xxs\:owl--hg > * {}
+	._xxs\:spacer--xxs {}
+	._xxs\:spacer--xs {}
+	._xxs\:spacer--sm {}
+	._xxs\:spacer--md {}
+	._xxs\:spacer--df {}
+	._xxs\:spacer--lg {}
+	._xxs\:spacer--xl {}
+	._xxs\:spacer--xxl {}
+	._xxs\:spacer--hg {}
+	._xxs\:flex {}
+	._xxs\:items-start {}
+	._xxs\:items-end {}
+	._xxs\:items-center {}
+	._xxs\:items-stretch {}
+	._xxs\:items-baseline {}
+	._xxs\:justify-start {}
+	._xxs\:justify-end {}
+	._xxs\:justify-center {}
+	._xxs\:justify-between {}
+	._xxs\:justify-around {}
+	._xxs\:self-start {}
+	._xxs\:self-end {}
+	._xxs\:self-center {}
+	._xxs\:self-stretch {}
+	._xxs\:flex-wrap {}
+	._xxs\:flex-nowrap {}
+	._xxs\:flex-column {}
+	._xxs\:flex-column-reverse {}
+	._xxs\:flex-row {}
+	._xxs\:flex-row-reverse {}
+	._xxs\:flex-grow {}
+	._xxs\:flex-nogrow {}
+	._xxs\:flex-shrink {}
+	._xxs\:flex-noshrink {}
+	._xxs\:mt-none, ._xxs\:my-none, ._xxs\:m-none {}
+	._xxs\:mr-none, ._xxs\:mx-none, ._xxs\:m-none {}
+	._xxs\:mb-none, ._xxs\:my-none, ._xxs\:m-none {}
+	._xxs\:ml-none, ._xxs\:mx-none, ._xxs\:m-none {}
+	._xxs\:mt-auto, ._xxs\:my-auto, ._xxs\:m-auto {}
+	._xxs\:mr-auto, ._xxs\:mx-auto, ._xxs\:m-auto {}
+	._xxs\:mb-auto, ._xxs\:my-auto, ._xxs\:m-auto {}
+	._xxs\:ml-auto, ._xxs\:mx-auto, ._xxs\:m-auto {}
+	._xxs\:mt-xxs, ._xxs\:my-xxs, ._xxs\:m-xxs {}
+	._xxs\:mr-xxs, ._xxs\:mx-xxs, ._xxs\:m-xxs {}
+	._xxs\:mb-xxs, ._xxs\:my-xxs, ._xxs\:m-xxs {}
+	._xxs\:ml-xxs, ._xxs\:mx-xxs, ._xxs\:m-xxs {}
+	._xxs\:nmt-xxs, ._xxs\:nmy-xxs, ._xxs\:nm-xxs {}
+	._xxs\:nmr-xxs, ._xxs\:nmx-xxs, ._xxs\:nm-xxs {}
+	._xxs\:nmb-xxs, ._xxs\:nmy-xxs, ._xxs\:nm-xxs {}
+	._xxs\:nml-xxs, ._xxs\:nmx-xxs, ._xxs\:nm-xxs {}
+	._xxs\:mt-xs, ._xxs\:my-xs, ._xxs\:m-xs {}
+	._xxs\:mr-xs, ._xxs\:mx-xs, ._xxs\:m-xs {}
+	._xxs\:mb-xs, ._xxs\:my-xs, ._xxs\:m-xs {}
+	._xxs\:ml-xs, ._xxs\:mx-xs, ._xxs\:m-xs {}
+	._xxs\:nmt-xs, ._xxs\:nmy-xs, ._xxs\:nm-xs {}
+	._xxs\:nmr-xs, ._xxs\:nmx-xs, ._xxs\:nm-xs {}
+	._xxs\:nmb-xs, ._xxs\:nmy-xs, ._xxs\:nm-xs {}
+	._xxs\:nml-xs, ._xxs\:nmx-xs, ._xxs\:nm-xs {}
+	._xxs\:mt-sm, ._xxs\:my-sm, ._xxs\:m-sm {}
+	._xxs\:mr-sm, ._xxs\:mx-sm, ._xxs\:m-sm {}
+	._xxs\:mb-sm, ._xxs\:my-sm, ._xxs\:m-sm {}
+	._xxs\:ml-sm, ._xxs\:mx-sm, ._xxs\:m-sm {}
+	._xxs\:nmt-sm, ._xxs\:nmy-sm, ._xxs\:nm-sm {}
+	._xxs\:nmr-sm, ._xxs\:nmx-sm, ._xxs\:nm-sm {}
+	._xxs\:nmb-sm, ._xxs\:nmy-sm, ._xxs\:nm-sm {}
+	._xxs\:nml-sm, ._xxs\:nmx-sm, ._xxs\:nm-sm {}
+	._xxs\:mt-md, ._xxs\:my-md, ._xxs\:m-md {}
+	._xxs\:mr-md, ._xxs\:mx-md, ._xxs\:m-md {}
+	._xxs\:mb-md, ._xxs\:my-md, ._xxs\:m-md {}
+	._xxs\:ml-md, ._xxs\:mx-md, ._xxs\:m-md {}
+	._xxs\:nmt-md, ._xxs\:nmy-md, ._xxs\:nm-md {}
+	._xxs\:nmr-md, ._xxs\:nmx-md, ._xxs\:nm-md {}
+	._xxs\:nmb-md, ._xxs\:nmy-md, ._xxs\:nm-md {}
+	._xxs\:nml-md, ._xxs\:nmx-md, ._xxs\:nm-md {}
+	._xxs\:mt-df, ._xxs\:my-df, ._xxs\:m-df {}
+	._xxs\:mr-df, ._xxs\:mx-df, ._xxs\:m-df {}
+	._xxs\:mb-df, ._xxs\:my-df, ._xxs\:m-df {}
+	._xxs\:ml-df, ._xxs\:mx-df, ._xxs\:m-df {}
+	._xxs\:nmt-df, ._xxs\:nmy-df, ._xxs\:nm-df {}
+	._xxs\:nmr-df, ._xxs\:nmx-df, ._xxs\:nm-df {}
+	._xxs\:nmb-df, ._xxs\:nmy-df, ._xxs\:nm-df {}
+	._xxs\:nml-df, ._xxs\:nmx-df, ._xxs\:nm-df {}
+	._xxs\:mt-lg, ._xxs\:my-lg, ._xxs\:m-lg {}
+	._xxs\:mr-lg, ._xxs\:mx-lg, ._xxs\:m-lg {}
+	._xxs\:mb-lg, ._xxs\:my-lg, ._xxs\:m-lg {}
+	._xxs\:ml-lg, ._xxs\:mx-lg, ._xxs\:m-lg {}
+	._xxs\:nmt-lg, ._xxs\:nmy-lg, ._xxs\:nm-lg {}
+	._xxs\:nmr-lg, ._xxs\:nmx-lg, ._xxs\:nm-lg {}
+	._xxs\:nmb-lg, ._xxs\:nmy-lg, ._xxs\:nm-lg {}
+	._xxs\:nml-lg, ._xxs\:nmx-lg, ._xxs\:nm-lg {}
+	._xxs\:mt-xl, ._xxs\:my-xl, ._xxs\:m-xl {}
+	._xxs\:mr-xl, ._xxs\:mx-xl, ._xxs\:m-xl {}
+	._xxs\:mb-xl, ._xxs\:my-xl, ._xxs\:m-xl {}
+	._xxs\:ml-xl, ._xxs\:mx-xl, ._xxs\:m-xl {}
+	._xxs\:nmt-xl, ._xxs\:nmy-xl, ._xxs\:nm-xl {}
+	._xxs\:nmr-xl, ._xxs\:nmx-xl, ._xxs\:nm-xl {}
+	._xxs\:nmb-xl, ._xxs\:nmy-xl, ._xxs\:nm-xl {}
+	._xxs\:nml-xl, ._xxs\:nmx-xl, ._xxs\:nm-xl {}
+	._xxs\:mt-xxl, ._xxs\:my-xxl, ._xxs\:m-xxl {}
+	._xxs\:mr-xxl, ._xxs\:mx-xxl, ._xxs\:m-xxl {}
+	._xxs\:mb-xxl, ._xxs\:my-xxl, ._xxs\:m-xxl {}
+	._xxs\:ml-xxl, ._xxs\:mx-xxl, ._xxs\:m-xxl {}
+	._xxs\:nmt-xxl, ._xxs\:nmy-xxl, ._xxs\:nm-xxl {}
+	._xxs\:nmr-xxl, ._xxs\:nmx-xxl, ._xxs\:nm-xxl {}
+	._xxs\:nmb-xxl, ._xxs\:nmy-xxl, ._xxs\:nm-xxl {}
+	._xxs\:nml-xxl, ._xxs\:nmx-xxl, ._xxs\:nm-xxl {}
+	._xxs\:mt-hg, ._xxs\:my-hg, ._xxs\:m-hg {}
+	._xxs\:mr-hg, ._xxs\:mx-hg, ._xxs\:m-hg {}
+	._xxs\:mb-hg, ._xxs\:my-hg, ._xxs\:m-hg {}
+	._xxs\:ml-hg, ._xxs\:mx-hg, ._xxs\:m-hg {}
+	._xxs\:nmt-hg, ._xxs\:nmy-hg, ._xxs\:nm-hg {}
+	._xxs\:nmr-hg, ._xxs\:nmx-hg, ._xxs\:nm-hg {}
+	._xxs\:nmb-hg, ._xxs\:nmy-hg, ._xxs\:nm-hg {}
+	._xxs\:nml-hg, ._xxs\:nmx-hg, ._xxs\:nm-hg {}
+	._xxs\:pt-none, ._xxs\:py-none, ._xxs\:p-none {}
+	._xxs\:pr-none, ._xxs\:px-none, ._xxs\:p-none {}
+	._xxs\:pb-none, ._xxs\:py-none, ._xxs\:p-none {}
+	._xxs\:pl-none, ._xxs\:px-none, ._xxs\:p-none {}
+	._xxs\:pt-xxs, ._xxs\:py-xxs, ._xxs\:p-xxs {}
+	._xxs\:pr-xxs, ._xxs\:px-xxs, ._xxs\:p-xxs {}
+	._xxs\:pb-xxs, ._xxs\:py-xxs, ._xxs\:p-xxs {}
+	._xxs\:pl-xxs, ._xxs\:px-xxs, ._xxs\:p-xxs {}
+	._xxs\:pt-xs, ._xxs\:py-xs, ._xxs\:p-xs {}
+	._xxs\:pr-xs, ._xxs\:px-xs, ._xxs\:p-xs {}
+	._xxs\:pb-xs, ._xxs\:py-xs, ._xxs\:p-xs {}
+	._xxs\:pl-xs, ._xxs\:px-xs, ._xxs\:p-xs {}
+	._xxs\:pt-sm, ._xxs\:py-sm, ._xxs\:p-sm {}
+	._xxs\:pr-sm, ._xxs\:px-sm, ._xxs\:p-sm {}
+	._xxs\:pb-sm, ._xxs\:py-sm, ._xxs\:p-sm {}
+	._xxs\:pl-sm, ._xxs\:px-sm, ._xxs\:p-sm {}
+	._xxs\:pt-md, ._xxs\:py-md, ._xxs\:p-md {}
+	._xxs\:pr-md, ._xxs\:px-md, ._xxs\:p-md {}
+	._xxs\:pb-md, ._xxs\:py-md, ._xxs\:p-md {}
+	._xxs\:pl-md, ._xxs\:px-md, ._xxs\:p-md {}
+	._xxs\:pt-df, ._xxs\:py-df, ._xxs\:p-df {}
+	._xxs\:pr-df, ._xxs\:px-df, ._xxs\:p-df {}
+	._xxs\:pb-df, ._xxs\:py-df, ._xxs\:p-df {}
+	._xxs\:pl-df, ._xxs\:px-df, ._xxs\:p-df {}
+	._xxs\:pt-lg, ._xxs\:py-lg, ._xxs\:p-lg {}
+	._xxs\:pr-lg, ._xxs\:px-lg, ._xxs\:p-lg {}
+	._xxs\:pb-lg, ._xxs\:py-lg, ._xxs\:p-lg {}
+	._xxs\:pl-lg, ._xxs\:px-lg, ._xxs\:p-lg {}
+	._xxs\:pt-xl, ._xxs\:py-xl, ._xxs\:p-xl {}
+	._xxs\:pr-xl, ._xxs\:px-xl, ._xxs\:p-xl {}
+	._xxs\:pb-xl, ._xxs\:py-xl, ._xxs\:p-xl {}
+	._xxs\:pl-xl, ._xxs\:px-xl, ._xxs\:p-xl {}
+	._xxs\:pt-xxl, ._xxs\:py-xxl, ._xxs\:p-xxl {}
+	._xxs\:pr-xxl, ._xxs\:px-xxl, ._xxs\:p-xxl {}
+	._xxs\:pb-xxl, ._xxs\:py-xxl, ._xxs\:p-xxl {}
+	._xxs\:pl-xxl, ._xxs\:px-xxl, ._xxs\:p-xxl {}
+	._xxs\:pt-hg, ._xxs\:py-hg, ._xxs\:p-hg {}
+	._xxs\:pr-hg, ._xxs\:px-hg, ._xxs\:p-hg {}
+	._xxs\:pb-hg, ._xxs\:py-hg, ._xxs\:p-hg {}
+	._xxs\:pl-hg, ._xxs\:px-hg, ._xxs\:p-hg {}
+	._xxs\:text-left {}
+	._xxs\:text-right {}
+	._xxs\:text-center {}
+	._xxs\:text-justify {}
+}
+
+@media only screen and (min-width: 480px) {
+	._xs\:grid--1 > * {}
+	._xs\:grid--2 > * {}
+	._xs\:grid--3 > * {}
+	._xs\:grid--4 > * {}
+	._xs\:grid--5 > * {}
+	._xs\:grid--6 > * {}
+	._xs\:grid--7 > * {}
+	._xs\:grid--8 > * {}
+	._xs\:grid--9 > * {}
+	._xs\:grid--10 > * {}
+	._xs\:grid--11 > * {}
+	._xs\:grid--12 > * {}
+	._xs\:grid--auto > * {}
+	._xs\:cell--1 {}
+	._xs\:cell--2 {}
+	._xs\:cell--3 {}
+	._xs\:cell--4 {}
+	._xs\:cell--5 {}
+	._xs\:cell--6 {}
+	._xs\:cell--7 {}
+	._xs\:cell--8 {}
+	._xs\:cell--9 {}
+	._xs\:cell--10 {}
+	._xs\:cell--11 {}
+	._xs\:cell--12 {}
+	._xs\:cell--auto {}
+	._xs\:owl--xxs > * {}
+	._xs\:owl--xs > * {}
+	._xs\:owl--sm > * {}
+	._xs\:owl--md > * {}
+	._xs\:owl--df > * {}
+	._xs\:owl--lg > * {}
+	._xs\:owl--xl > * {}
+	._xs\:owl--xxl > * {}
+	._xs\:owl--hg > * {}
+	._xs\:spacer--xxs {}
+	._xs\:spacer--xs {}
+	._xs\:spacer--sm {}
+	._xs\:spacer--md {}
+	._xs\:spacer--df {}
+	._xs\:spacer--lg {}
+	._xs\:spacer--xl {}
+	._xs\:spacer--xxl {}
+	._xs\:spacer--hg {}
+	._xs\:flex {}
+	._xs\:items-start {}
+	._xs\:items-end {}
+	._xs\:items-center {}
+	._xs\:items-stretch {}
+	._xs\:items-baseline {}
+	._xs\:justify-start {}
+	._xs\:justify-end {}
+	._xs\:justify-center {}
+	._xs\:justify-between {}
+	._xs\:justify-around {}
+	._xs\:self-start {}
+	._xs\:self-end {}
+	._xs\:self-center {}
+	._xs\:self-stretch {}
+	._xs\:flex-wrap {}
+	._xs\:flex-nowrap {}
+	._xs\:flex-column {}
+	._xs\:flex-column-reverse {}
+	._xs\:flex-row {}
+	._xs\:flex-row-reverse {}
+	._xs\:flex-grow {}
+	._xs\:flex-nogrow {}
+	._xs\:flex-shrink {}
+	._xs\:flex-noshrink {}
+	._xs\:mt-none, ._xs\:my-none, ._xs\:m-none {}
+	._xs\:mr-none, ._xs\:mx-none, ._xs\:m-none {}
+	._xs\:mb-none, ._xs\:my-none, ._xs\:m-none {}
+	._xs\:ml-none, ._xs\:mx-none, ._xs\:m-none {}
+	._xs\:mt-auto, ._xs\:my-auto, ._xs\:m-auto {}
+	._xs\:mr-auto, ._xs\:mx-auto, ._xs\:m-auto {}
+	._xs\:mb-auto, ._xs\:my-auto, ._xs\:m-auto {}
+	._xs\:ml-auto, ._xs\:mx-auto, ._xs\:m-auto {}
+	._xs\:mt-xxs, ._xs\:my-xxs, ._xs\:m-xxs {}
+	._xs\:mr-xxs, ._xs\:mx-xxs, ._xs\:m-xxs {}
+	._xs\:mb-xxs, ._xs\:my-xxs, ._xs\:m-xxs {}
+	._xs\:ml-xxs, ._xs\:mx-xxs, ._xs\:m-xxs {}
+	._xs\:nmt-xxs, ._xs\:nmy-xxs, ._xs\:nm-xxs {}
+	._xs\:nmr-xxs, ._xs\:nmx-xxs, ._xs\:nm-xxs {}
+	._xs\:nmb-xxs, ._xs\:nmy-xxs, ._xs\:nm-xxs {}
+	._xs\:nml-xxs, ._xs\:nmx-xxs, ._xs\:nm-xxs {}
+	._xs\:mt-xs, ._xs\:my-xs, ._xs\:m-xs {}
+	._xs\:mr-xs, ._xs\:mx-xs, ._xs\:m-xs {}
+	._xs\:mb-xs, ._xs\:my-xs, ._xs\:m-xs {}
+	._xs\:ml-xs, ._xs\:mx-xs, ._xs\:m-xs {}
+	._xs\:nmt-xs, ._xs\:nmy-xs, ._xs\:nm-xs {}
+	._xs\:nmr-xs, ._xs\:nmx-xs, ._xs\:nm-xs {}
+	._xs\:nmb-xs, ._xs\:nmy-xs, ._xs\:nm-xs {}
+	._xs\:nml-xs, ._xs\:nmx-xs, ._xs\:nm-xs {}
+	._xs\:mt-sm, ._xs\:my-sm, ._xs\:m-sm {}
+	._xs\:mr-sm, ._xs\:mx-sm, ._xs\:m-sm {}
+	._xs\:mb-sm, ._xs\:my-sm, ._xs\:m-sm {}
+	._xs\:ml-sm, ._xs\:mx-sm, ._xs\:m-sm {}
+	._xs\:nmt-sm, ._xs\:nmy-sm, ._xs\:nm-sm {}
+	._xs\:nmr-sm, ._xs\:nmx-sm, ._xs\:nm-sm {}
+	._xs\:nmb-sm, ._xs\:nmy-sm, ._xs\:nm-sm {}
+	._xs\:nml-sm, ._xs\:nmx-sm, ._xs\:nm-sm {}
+	._xs\:mt-md, ._xs\:my-md, ._xs\:m-md {}
+	._xs\:mr-md, ._xs\:mx-md, ._xs\:m-md {}
+	._xs\:mb-md, ._xs\:my-md, ._xs\:m-md {}
+	._xs\:ml-md, ._xs\:mx-md, ._xs\:m-md {}
+	._xs\:nmt-md, ._xs\:nmy-md, ._xs\:nm-md {}
+	._xs\:nmr-md, ._xs\:nmx-md, ._xs\:nm-md {}
+	._xs\:nmb-md, ._xs\:nmy-md, ._xs\:nm-md {}
+	._xs\:nml-md, ._xs\:nmx-md, ._xs\:nm-md {}
+	._xs\:mt-df, ._xs\:my-df, ._xs\:m-df {}
+	._xs\:mr-df, ._xs\:mx-df, ._xs\:m-df {}
+	._xs\:mb-df, ._xs\:my-df, ._xs\:m-df {}
+	._xs\:ml-df, ._xs\:mx-df, ._xs\:m-df {}
+	._xs\:nmt-df, ._xs\:nmy-df, ._xs\:nm-df {}
+	._xs\:nmr-df, ._xs\:nmx-df, ._xs\:nm-df {}
+	._xs\:nmb-df, ._xs\:nmy-df, ._xs\:nm-df {}
+	._xs\:nml-df, ._xs\:nmx-df, ._xs\:nm-df {}
+	._xs\:mt-lg, ._xs\:my-lg, ._xs\:m-lg {}
+	._xs\:mr-lg, ._xs\:mx-lg, ._xs\:m-lg {}
+	._xs\:mb-lg, ._xs\:my-lg, ._xs\:m-lg {}
+	._xs\:ml-lg, ._xs\:mx-lg, ._xs\:m-lg {}
+	._xs\:nmt-lg, ._xs\:nmy-lg, ._xs\:nm-lg {}
+	._xs\:nmr-lg, ._xs\:nmx-lg, ._xs\:nm-lg {}
+	._xs\:nmb-lg, ._xs\:nmy-lg, ._xs\:nm-lg {}
+	._xs\:nml-lg, ._xs\:nmx-lg, ._xs\:nm-lg {}
+	._xs\:mt-xl, ._xs\:my-xl, ._xs\:m-xl {}
+	._xs\:mr-xl, ._xs\:mx-xl, ._xs\:m-xl {}
+	._xs\:mb-xl, ._xs\:my-xl, ._xs\:m-xl {}
+	._xs\:ml-xl, ._xs\:mx-xl, ._xs\:m-xl {}
+	._xs\:nmt-xl, ._xs\:nmy-xl, ._xs\:nm-xl {}
+	._xs\:nmr-xl, ._xs\:nmx-xl, ._xs\:nm-xl {}
+	._xs\:nmb-xl, ._xs\:nmy-xl, ._xs\:nm-xl {}
+	._xs\:nml-xl, ._xs\:nmx-xl, ._xs\:nm-xl {}
+	._xs\:mt-xxl, ._xs\:my-xxl, ._xs\:m-xxl {}
+	._xs\:mr-xxl, ._xs\:mx-xxl, ._xs\:m-xxl {}
+	._xs\:mb-xxl, ._xs\:my-xxl, ._xs\:m-xxl {}
+	._xs\:ml-xxl, ._xs\:mx-xxl, ._xs\:m-xxl {}
+	._xs\:nmt-xxl, ._xs\:nmy-xxl, ._xs\:nm-xxl {}
+	._xs\:nmr-xxl, ._xs\:nmx-xxl, ._xs\:nm-xxl {}
+	._xs\:nmb-xxl, ._xs\:nmy-xxl, ._xs\:nm-xxl {}
+	._xs\:nml-xxl, ._xs\:nmx-xxl, ._xs\:nm-xxl {}
+	._xs\:mt-hg, ._xs\:my-hg, ._xs\:m-hg {}
+	._xs\:mr-hg, ._xs\:mx-hg, ._xs\:m-hg {}
+	._xs\:mb-hg, ._xs\:my-hg, ._xs\:m-hg {}
+	._xs\:ml-hg, ._xs\:mx-hg, ._xs\:m-hg {}
+	._xs\:nmt-hg, ._xs\:nmy-hg, ._xs\:nm-hg {}
+	._xs\:nmr-hg, ._xs\:nmx-hg, ._xs\:nm-hg {}
+	._xs\:nmb-hg, ._xs\:nmy-hg, ._xs\:nm-hg {}
+	._xs\:nml-hg, ._xs\:nmx-hg, ._xs\:nm-hg {}
+	._xs\:pt-none, ._xs\:py-none, ._xs\:p-none {}
+	._xs\:pr-none, ._xs\:px-none, ._xs\:p-none {}
+	._xs\:pb-none, ._xs\:py-none, ._xs\:p-none {}
+	._xs\:pl-none, ._xs\:px-none, ._xs\:p-none {}
+	._xs\:pt-xxs, ._xs\:py-xxs, ._xs\:p-xxs {}
+	._xs\:pr-xxs, ._xs\:px-xxs, ._xs\:p-xxs {}
+	._xs\:pb-xxs, ._xs\:py-xxs, ._xs\:p-xxs {}
+	._xs\:pl-xxs, ._xs\:px-xxs, ._xs\:p-xxs {}
+	._xs\:pt-xs, ._xs\:py-xs, ._xs\:p-xs {}
+	._xs\:pr-xs, ._xs\:px-xs, ._xs\:p-xs {}
+	._xs\:pb-xs, ._xs\:py-xs, ._xs\:p-xs {}
+	._xs\:pl-xs, ._xs\:px-xs, ._xs\:p-xs {}
+	._xs\:pt-sm, ._xs\:py-sm, ._xs\:p-sm {}
+	._xs\:pr-sm, ._xs\:px-sm, ._xs\:p-sm {}
+	._xs\:pb-sm, ._xs\:py-sm, ._xs\:p-sm {}
+	._xs\:pl-sm, ._xs\:px-sm, ._xs\:p-sm {}
+	._xs\:pt-md, ._xs\:py-md, ._xs\:p-md {}
+	._xs\:pr-md, ._xs\:px-md, ._xs\:p-md {}
+	._xs\:pb-md, ._xs\:py-md, ._xs\:p-md {}
+	._xs\:pl-md, ._xs\:px-md, ._xs\:p-md {}
+	._xs\:pt-df, ._xs\:py-df, ._xs\:p-df {}
+	._xs\:pr-df, ._xs\:px-df, ._xs\:p-df {}
+	._xs\:pb-df, ._xs\:py-df, ._xs\:p-df {}
+	._xs\:pl-df, ._xs\:px-df, ._xs\:p-df {}
+	._xs\:pt-lg, ._xs\:py-lg, ._xs\:p-lg {}
+	._xs\:pr-lg, ._xs\:px-lg, ._xs\:p-lg {}
+	._xs\:pb-lg, ._xs\:py-lg, ._xs\:p-lg {}
+	._xs\:pl-lg, ._xs\:px-lg, ._xs\:p-lg {}
+	._xs\:pt-xl, ._xs\:py-xl, ._xs\:p-xl {}
+	._xs\:pr-xl, ._xs\:px-xl, ._xs\:p-xl {}
+	._xs\:pb-xl, ._xs\:py-xl, ._xs\:p-xl {}
+	._xs\:pl-xl, ._xs\:px-xl, ._xs\:p-xl {}
+	._xs\:pt-xxl, ._xs\:py-xxl, ._xs\:p-xxl {}
+	._xs\:pr-xxl, ._xs\:px-xxl, ._xs\:p-xxl {}
+	._xs\:pb-xxl, ._xs\:py-xxl, ._xs\:p-xxl {}
+	._xs\:pl-xxl, ._xs\:px-xxl, ._xs\:p-xxl {}
+	._xs\:pt-hg, ._xs\:py-hg, ._xs\:p-hg {}
+	._xs\:pr-hg, ._xs\:px-hg, ._xs\:p-hg {}
+	._xs\:pb-hg, ._xs\:py-hg, ._xs\:p-hg {}
+	._xs\:pl-hg, ._xs\:px-hg, ._xs\:p-hg {}
+	._xs\:text-left {}
+	._xs\:text-right {}
+	._xs\:text-center {}
+	._xs\:text-justify {}
+}
+
+@media only screen and (min-width: 568px) {
+	._sm\:grid--1 > * {}
+	._sm\:grid--2 > * {}
+	._sm\:grid--3 > * {}
+	._sm\:grid--4 > * {}
+	._sm\:grid--5 > * {}
+	._sm\:grid--6 > * {}
+	._sm\:grid--7 > * {}
+	._sm\:grid--8 > * {}
+	._sm\:grid--9 > * {}
+	._sm\:grid--10 > * {}
+	._sm\:grid--11 > * {}
+	._sm\:grid--12 > * {}
+	._sm\:grid--auto > * {}
+	._sm\:cell--1 {}
+	._sm\:cell--2 {}
+	._sm\:cell--3 {}
+	._sm\:cell--4 {}
+	._sm\:cell--5 {}
+	._sm\:cell--6 {}
+	._sm\:cell--7 {}
+	._sm\:cell--8 {}
+	._sm\:cell--9 {}
+	._sm\:cell--10 {}
+	._sm\:cell--11 {}
+	._sm\:cell--12 {}
+	._sm\:cell--auto {}
+	._sm\:owl--xxs > * {}
+	._sm\:owl--xs > * {}
+	._sm\:owl--sm > * {}
+	._sm\:owl--md > * {}
+	._sm\:owl--df > * {}
+	._sm\:owl--lg > * {}
+	._sm\:owl--xl > * {}
+	._sm\:owl--xxl > * {}
+	._sm\:owl--hg > * {}
+	._sm\:spacer--xxs {}
+	._sm\:spacer--xs {}
+	._sm\:spacer--sm {}
+	._sm\:spacer--md {}
+	._sm\:spacer--df {}
+	._sm\:spacer--lg {}
+	._sm\:spacer--xl {}
+	._sm\:spacer--xxl {}
+	._sm\:spacer--hg {}
+	._sm\:flex {}
+	._sm\:items-start {}
+	._sm\:items-end {}
+	._sm\:items-center {}
+	._sm\:items-stretch {}
+	._sm\:items-baseline {}
+	._sm\:justify-start {}
+	._sm\:justify-end {}
+	._sm\:justify-center {}
+	._sm\:justify-between {}
+	._sm\:justify-around {}
+	._sm\:self-start {}
+	._sm\:self-end {}
+	._sm\:self-center {}
+	._sm\:self-stretch {}
+	._sm\:flex-wrap {}
+	._sm\:flex-nowrap {}
+	._sm\:flex-column {}
+	._sm\:flex-column-reverse {}
+	._sm\:flex-row {}
+	._sm\:flex-row-reverse {}
+	._sm\:flex-grow {}
+	._sm\:flex-nogrow {}
+	._sm\:flex-shrink {}
+	._sm\:flex-noshrink {}
+	._sm\:mt-none, ._sm\:my-none, ._sm\:m-none {}
+	._sm\:mr-none, ._sm\:mx-none, ._sm\:m-none {}
+	._sm\:mb-none, ._sm\:my-none, ._sm\:m-none {}
+	._sm\:ml-none, ._sm\:mx-none, ._sm\:m-none {}
+	._sm\:mt-auto, ._sm\:my-auto, ._sm\:m-auto {}
+	._sm\:mr-auto, ._sm\:mx-auto, ._sm\:m-auto {}
+	._sm\:mb-auto, ._sm\:my-auto, ._sm\:m-auto {}
+	._sm\:ml-auto, ._sm\:mx-auto, ._sm\:m-auto {}
+	._sm\:mt-xxs, ._sm\:my-xxs, ._sm\:m-xxs {}
+	._sm\:mr-xxs, ._sm\:mx-xxs, ._sm\:m-xxs {}
+	._sm\:mb-xxs, ._sm\:my-xxs, ._sm\:m-xxs {}
+	._sm\:ml-xxs, ._sm\:mx-xxs, ._sm\:m-xxs {}
+	._sm\:nmt-xxs, ._sm\:nmy-xxs, ._sm\:nm-xxs {}
+	._sm\:nmr-xxs, ._sm\:nmx-xxs, ._sm\:nm-xxs {}
+	._sm\:nmb-xxs, ._sm\:nmy-xxs, ._sm\:nm-xxs {}
+	._sm\:nml-xxs, ._sm\:nmx-xxs, ._sm\:nm-xxs {}
+	._sm\:mt-xs, ._sm\:my-xs, ._sm\:m-xs {}
+	._sm\:mr-xs, ._sm\:mx-xs, ._sm\:m-xs {}
+	._sm\:mb-xs, ._sm\:my-xs, ._sm\:m-xs {}
+	._sm\:ml-xs, ._sm\:mx-xs, ._sm\:m-xs {}
+	._sm\:nmt-xs, ._sm\:nmy-xs, ._sm\:nm-xs {}
+	._sm\:nmr-xs, ._sm\:nmx-xs, ._sm\:nm-xs {}
+	._sm\:nmb-xs, ._sm\:nmy-xs, ._sm\:nm-xs {}
+	._sm\:nml-xs, ._sm\:nmx-xs, ._sm\:nm-xs {}
+	._sm\:mt-sm, ._sm\:my-sm, ._sm\:m-sm {}
+	._sm\:mr-sm, ._sm\:mx-sm, ._sm\:m-sm {}
+	._sm\:mb-sm, ._sm\:my-sm, ._sm\:m-sm {}
+	._sm\:ml-sm, ._sm\:mx-sm, ._sm\:m-sm {}
+	._sm\:nmt-sm, ._sm\:nmy-sm, ._sm\:nm-sm {}
+	._sm\:nmr-sm, ._sm\:nmx-sm, ._sm\:nm-sm {}
+	._sm\:nmb-sm, ._sm\:nmy-sm, ._sm\:nm-sm {}
+	._sm\:nml-sm, ._sm\:nmx-sm, ._sm\:nm-sm {}
+	._sm\:mt-md, ._sm\:my-md, ._sm\:m-md {}
+	._sm\:mr-md, ._sm\:mx-md, ._sm\:m-md {}
+	._sm\:mb-md, ._sm\:my-md, ._sm\:m-md {}
+	._sm\:ml-md, ._sm\:mx-md, ._sm\:m-md {}
+	._sm\:nmt-md, ._sm\:nmy-md, ._sm\:nm-md {}
+	._sm\:nmr-md, ._sm\:nmx-md, ._sm\:nm-md {}
+	._sm\:nmb-md, ._sm\:nmy-md, ._sm\:nm-md {}
+	._sm\:nml-md, ._sm\:nmx-md, ._sm\:nm-md {}
+	._sm\:mt-df, ._sm\:my-df, ._sm\:m-df {}
+	._sm\:mr-df, ._sm\:mx-df, ._sm\:m-df {}
+	._sm\:mb-df, ._sm\:my-df, ._sm\:m-df {}
+	._sm\:ml-df, ._sm\:mx-df, ._sm\:m-df {}
+	._sm\:nmt-df, ._sm\:nmy-df, ._sm\:nm-df {}
+	._sm\:nmr-df, ._sm\:nmx-df, ._sm\:nm-df {}
+	._sm\:nmb-df, ._sm\:nmy-df, ._sm\:nm-df {}
+	._sm\:nml-df, ._sm\:nmx-df, ._sm\:nm-df {}
+	._sm\:mt-lg, ._sm\:my-lg, ._sm\:m-lg {}
+	._sm\:mr-lg, ._sm\:mx-lg, ._sm\:m-lg {}
+	._sm\:mb-lg, ._sm\:my-lg, ._sm\:m-lg {}
+	._sm\:ml-lg, ._sm\:mx-lg, ._sm\:m-lg {}
+	._sm\:nmt-lg, ._sm\:nmy-lg, ._sm\:nm-lg {}
+	._sm\:nmr-lg, ._sm\:nmx-lg, ._sm\:nm-lg {}
+	._sm\:nmb-lg, ._sm\:nmy-lg, ._sm\:nm-lg {}
+	._sm\:nml-lg, ._sm\:nmx-lg, ._sm\:nm-lg {}
+	._sm\:mt-xl, ._sm\:my-xl, ._sm\:m-xl {}
+	._sm\:mr-xl, ._sm\:mx-xl, ._sm\:m-xl {}
+	._sm\:mb-xl, ._sm\:my-xl, ._sm\:m-xl {}
+	._sm\:ml-xl, ._sm\:mx-xl, ._sm\:m-xl {}
+	._sm\:nmt-xl, ._sm\:nmy-xl, ._sm\:nm-xl {}
+	._sm\:nmr-xl, ._sm\:nmx-xl, ._sm\:nm-xl {}
+	._sm\:nmb-xl, ._sm\:nmy-xl, ._sm\:nm-xl {}
+	._sm\:nml-xl, ._sm\:nmx-xl, ._sm\:nm-xl {}
+	._sm\:mt-xxl, ._sm\:my-xxl, ._sm\:m-xxl {}
+	._sm\:mr-xxl, ._sm\:mx-xxl, ._sm\:m-xxl {}
+	._sm\:mb-xxl, ._sm\:my-xxl, ._sm\:m-xxl {}
+	._sm\:ml-xxl, ._sm\:mx-xxl, ._sm\:m-xxl {}
+	._sm\:nmt-xxl, ._sm\:nmy-xxl, ._sm\:nm-xxl {}
+	._sm\:nmr-xxl, ._sm\:nmx-xxl, ._sm\:nm-xxl {}
+	._sm\:nmb-xxl, ._sm\:nmy-xxl, ._sm\:nm-xxl {}
+	._sm\:nml-xxl, ._sm\:nmx-xxl, ._sm\:nm-xxl {}
+	._sm\:mt-hg, ._sm\:my-hg, ._sm\:m-hg {}
+	._sm\:mr-hg, ._sm\:mx-hg, ._sm\:m-hg {}
+	._sm\:mb-hg, ._sm\:my-hg, ._sm\:m-hg {}
+	._sm\:ml-hg, ._sm\:mx-hg, ._sm\:m-hg {}
+	._sm\:nmt-hg, ._sm\:nmy-hg, ._sm\:nm-hg {}
+	._sm\:nmr-hg, ._sm\:nmx-hg, ._sm\:nm-hg {}
+	._sm\:nmb-hg, ._sm\:nmy-hg, ._sm\:nm-hg {}
+	._sm\:nml-hg, ._sm\:nmx-hg, ._sm\:nm-hg {}
+	._sm\:pt-none, ._sm\:py-none, ._sm\:p-none {}
+	._sm\:pr-none, ._sm\:px-none, ._sm\:p-none {}
+	._sm\:pb-none, ._sm\:py-none, ._sm\:p-none {}
+	._sm\:pl-none, ._sm\:px-none, ._sm\:p-none {}
+	._sm\:pt-xxs, ._sm\:py-xxs, ._sm\:p-xxs {}
+	._sm\:pr-xxs, ._sm\:px-xxs, ._sm\:p-xxs {}
+	._sm\:pb-xxs, ._sm\:py-xxs, ._sm\:p-xxs {}
+	._sm\:pl-xxs, ._sm\:px-xxs, ._sm\:p-xxs {}
+	._sm\:pt-xs, ._sm\:py-xs, ._sm\:p-xs {}
+	._sm\:pr-xs, ._sm\:px-xs, ._sm\:p-xs {}
+	._sm\:pb-xs, ._sm\:py-xs, ._sm\:p-xs {}
+	._sm\:pl-xs, ._sm\:px-xs, ._sm\:p-xs {}
+	._sm\:pt-sm, ._sm\:py-sm, ._sm\:p-sm {}
+	._sm\:pr-sm, ._sm\:px-sm, ._sm\:p-sm {}
+	._sm\:pb-sm, ._sm\:py-sm, ._sm\:p-sm {}
+	._sm\:pl-sm, ._sm\:px-sm, ._sm\:p-sm {}
+	._sm\:pt-md, ._sm\:py-md, ._sm\:p-md {}
+	._sm\:pr-md, ._sm\:px-md, ._sm\:p-md {}
+	._sm\:pb-md, ._sm\:py-md, ._sm\:p-md {}
+	._sm\:pl-md, ._sm\:px-md, ._sm\:p-md {}
+	._sm\:pt-df, ._sm\:py-df, ._sm\:p-df {}
+	._sm\:pr-df, ._sm\:px-df, ._sm\:p-df {}
+	._sm\:pb-df, ._sm\:py-df, ._sm\:p-df {}
+	._sm\:pl-df, ._sm\:px-df, ._sm\:p-df {}
+	._sm\:pt-lg, ._sm\:py-lg, ._sm\:p-lg {}
+	._sm\:pr-lg, ._sm\:px-lg, ._sm\:p-lg {}
+	._sm\:pb-lg, ._sm\:py-lg, ._sm\:p-lg {}
+	._sm\:pl-lg, ._sm\:px-lg, ._sm\:p-lg {}
+	._sm\:pt-xl, ._sm\:py-xl, ._sm\:p-xl {}
+	._sm\:pr-xl, ._sm\:px-xl, ._sm\:p-xl {}
+	._sm\:pb-xl, ._sm\:py-xl, ._sm\:p-xl {}
+	._sm\:pl-xl, ._sm\:px-xl, ._sm\:p-xl {}
+	._sm\:pt-xxl, ._sm\:py-xxl, ._sm\:p-xxl {}
+	._sm\:pr-xxl, ._sm\:px-xxl, ._sm\:p-xxl {}
+	._sm\:pb-xxl, ._sm\:py-xxl, ._sm\:p-xxl {}
+	._sm\:pl-xxl, ._sm\:px-xxl, ._sm\:p-xxl {}
+	._sm\:pt-hg, ._sm\:py-hg, ._sm\:p-hg {}
+	._sm\:pr-hg, ._sm\:px-hg, ._sm\:p-hg {}
+	._sm\:pb-hg, ._sm\:py-hg, ._sm\:p-hg {}
+	._sm\:pl-hg, ._sm\:px-hg, ._sm\:p-hg {}
+	._sm\:text-left {}
+	._sm\:text-right {}
+	._sm\:text-center {}
+	._sm\:text-justify {}
+}
+
+@media only screen and (min-width: 768px) {
+	._md\:grid--1 > * {}
+	._md\:grid--2 > * {}
+	._md\:grid--3 > * {}
+	._md\:grid--4 > * {}
+	._md\:grid--5 > * {}
+	._md\:grid--6 > * {}
+	._md\:grid--7 > * {}
+	._md\:grid--8 > * {}
+	._md\:grid--9 > * {}
+	._md\:grid--10 > * {}
+	._md\:grid--11 > * {}
+	._md\:grid--12 > * {}
+	._md\:grid--auto > * {}
+	._md\:cell--1 {}
+	._md\:cell--2 {}
+	._md\:cell--3 {}
+	._md\:cell--4 {}
+	._md\:cell--5 {}
+	._md\:cell--6 {}
+	._md\:cell--7 {}
+	._md\:cell--8 {}
+	._md\:cell--9 {}
+	._md\:cell--10 {}
+	._md\:cell--11 {}
+	._md\:cell--12 {}
+	._md\:cell--auto {}
+	._md\:owl--xxs > * {}
+	._md\:owl--xs > * {}
+	._md\:owl--sm > * {}
+	._md\:owl--md > * {}
+	._md\:owl--df > * {}
+	._md\:owl--lg > * {}
+	._md\:owl--xl > * {}
+	._md\:owl--xxl > * {}
+	._md\:owl--hg > * {}
+	._md\:spacer--xxs {}
+	._md\:spacer--xs {}
+	._md\:spacer--sm {}
+	._md\:spacer--md {}
+	._md\:spacer--df {}
+	._md\:spacer--lg {}
+	._md\:spacer--xl {}
+	._md\:spacer--xxl {}
+	._md\:spacer--hg {}
+	._md\:flex {}
+	._md\:items-start {}
+	._md\:items-end {}
+	._md\:items-center {}
+	._md\:items-stretch {}
+	._md\:items-baseline {}
+	._md\:justify-start {}
+	._md\:justify-end {}
+	._md\:justify-center {}
+	._md\:justify-between {}
+	._md\:justify-around {}
+	._md\:self-start {}
+	._md\:self-end {}
+	._md\:self-center {}
+	._md\:self-stretch {}
+	._md\:flex-wrap {}
+	._md\:flex-nowrap {}
+	._md\:flex-column {}
+	._md\:flex-column-reverse {}
+	._md\:flex-row {}
+	._md\:flex-row-reverse {}
+	._md\:flex-grow {}
+	._md\:flex-nogrow {}
+	._md\:flex-shrink {}
+	._md\:flex-noshrink {}
+	._md\:mt-none, ._md\:my-none, ._md\:m-none {}
+	._md\:mr-none, ._md\:mx-none, ._md\:m-none {}
+	._md\:mb-none, ._md\:my-none, ._md\:m-none {}
+	._md\:ml-none, ._md\:mx-none, ._md\:m-none {}
+	._md\:mt-auto, ._md\:my-auto, ._md\:m-auto {}
+	._md\:mr-auto, ._md\:mx-auto, ._md\:m-auto {}
+	._md\:mb-auto, ._md\:my-auto, ._md\:m-auto {}
+	._md\:ml-auto, ._md\:mx-auto, ._md\:m-auto {}
+	._md\:mt-xxs, ._md\:my-xxs, ._md\:m-xxs {}
+	._md\:mr-xxs, ._md\:mx-xxs, ._md\:m-xxs {}
+	._md\:mb-xxs, ._md\:my-xxs, ._md\:m-xxs {}
+	._md\:ml-xxs, ._md\:mx-xxs, ._md\:m-xxs {}
+	._md\:nmt-xxs, ._md\:nmy-xxs, ._md\:nm-xxs {}
+	._md\:nmr-xxs, ._md\:nmx-xxs, ._md\:nm-xxs {}
+	._md\:nmb-xxs, ._md\:nmy-xxs, ._md\:nm-xxs {}
+	._md\:nml-xxs, ._md\:nmx-xxs, ._md\:nm-xxs {}
+	._md\:mt-xs, ._md\:my-xs, ._md\:m-xs {}
+	._md\:mr-xs, ._md\:mx-xs, ._md\:m-xs {}
+	._md\:mb-xs, ._md\:my-xs, ._md\:m-xs {}
+	._md\:ml-xs, ._md\:mx-xs, ._md\:m-xs {}
+	._md\:nmt-xs, ._md\:nmy-xs, ._md\:nm-xs {}
+	._md\:nmr-xs, ._md\:nmx-xs, ._md\:nm-xs {}
+	._md\:nmb-xs, ._md\:nmy-xs, ._md\:nm-xs {}
+	._md\:nml-xs, ._md\:nmx-xs, ._md\:nm-xs {}
+	._md\:mt-sm, ._md\:my-sm, ._md\:m-sm {}
+	._md\:mr-sm, ._md\:mx-sm, ._md\:m-sm {}
+	._md\:mb-sm, ._md\:my-sm, ._md\:m-sm {}
+	._md\:ml-sm, ._md\:mx-sm, ._md\:m-sm {}
+	._md\:nmt-sm, ._md\:nmy-sm, ._md\:nm-sm {}
+	._md\:nmr-sm, ._md\:nmx-sm, ._md\:nm-sm {}
+	._md\:nmb-sm, ._md\:nmy-sm, ._md\:nm-sm {}
+	._md\:nml-sm, ._md\:nmx-sm, ._md\:nm-sm {}
+	._md\:mt-md, ._md\:my-md, ._md\:m-md {}
+	._md\:mr-md, ._md\:mx-md, ._md\:m-md {}
+	._md\:mb-md, ._md\:my-md, ._md\:m-md {}
+	._md\:ml-md, ._md\:mx-md, ._md\:m-md {}
+	._md\:nmt-md, ._md\:nmy-md, ._md\:nm-md {}
+	._md\:nmr-md, ._md\:nmx-md, ._md\:nm-md {}
+	._md\:nmb-md, ._md\:nmy-md, ._md\:nm-md {}
+	._md\:nml-md, ._md\:nmx-md, ._md\:nm-md {}
+	._md\:mt-df, ._md\:my-df, ._md\:m-df {}
+	._md\:mr-df, ._md\:mx-df, ._md\:m-df {}
+	._md\:mb-df, ._md\:my-df, ._md\:m-df {}
+	._md\:ml-df, ._md\:mx-df, ._md\:m-df {}
+	._md\:nmt-df, ._md\:nmy-df, ._md\:nm-df {}
+	._md\:nmr-df, ._md\:nmx-df, ._md\:nm-df {}
+	._md\:nmb-df, ._md\:nmy-df, ._md\:nm-df {}
+	._md\:nml-df, ._md\:nmx-df, ._md\:nm-df {}
+	._md\:mt-lg, ._md\:my-lg, ._md\:m-lg {}
+	._md\:mr-lg, ._md\:mx-lg, ._md\:m-lg {}
+	._md\:mb-lg, ._md\:my-lg, ._md\:m-lg {}
+	._md\:ml-lg, ._md\:mx-lg, ._md\:m-lg {}
+	._md\:nmt-lg, ._md\:nmy-lg, ._md\:nm-lg {}
+	._md\:nmr-lg, ._md\:nmx-lg, ._md\:nm-lg {}
+	._md\:nmb-lg, ._md\:nmy-lg, ._md\:nm-lg {}
+	._md\:nml-lg, ._md\:nmx-lg, ._md\:nm-lg {}
+	._md\:mt-xl, ._md\:my-xl, ._md\:m-xl {}
+	._md\:mr-xl, ._md\:mx-xl, ._md\:m-xl {}
+	._md\:mb-xl, ._md\:my-xl, ._md\:m-xl {}
+	._md\:ml-xl, ._md\:mx-xl, ._md\:m-xl {}
+	._md\:nmt-xl, ._md\:nmy-xl, ._md\:nm-xl {}
+	._md\:nmr-xl, ._md\:nmx-xl, ._md\:nm-xl {}
+	._md\:nmb-xl, ._md\:nmy-xl, ._md\:nm-xl {}
+	._md\:nml-xl, ._md\:nmx-xl, ._md\:nm-xl {}
+	._md\:mt-xxl, ._md\:my-xxl, ._md\:m-xxl {}
+	._md\:mr-xxl, ._md\:mx-xxl, ._md\:m-xxl {}
+	._md\:mb-xxl, ._md\:my-xxl, ._md\:m-xxl {}
+	._md\:ml-xxl, ._md\:mx-xxl, ._md\:m-xxl {}
+	._md\:nmt-xxl, ._md\:nmy-xxl, ._md\:nm-xxl {}
+	._md\:nmr-xxl, ._md\:nmx-xxl, ._md\:nm-xxl {}
+	._md\:nmb-xxl, ._md\:nmy-xxl, ._md\:nm-xxl {}
+	._md\:nml-xxl, ._md\:nmx-xxl, ._md\:nm-xxl {}
+	._md\:mt-hg, ._md\:my-hg, ._md\:m-hg {}
+	._md\:mr-hg, ._md\:mx-hg, ._md\:m-hg {}
+	._md\:mb-hg, ._md\:my-hg, ._md\:m-hg {}
+	._md\:ml-hg, ._md\:mx-hg, ._md\:m-hg {}
+	._md\:nmt-hg, ._md\:nmy-hg, ._md\:nm-hg {}
+	._md\:nmr-hg, ._md\:nmx-hg, ._md\:nm-hg {}
+	._md\:nmb-hg, ._md\:nmy-hg, ._md\:nm-hg {}
+	._md\:nml-hg, ._md\:nmx-hg, ._md\:nm-hg {}
+	._md\:pt-none, ._md\:py-none, ._md\:p-none {}
+	._md\:pr-none, ._md\:px-none, ._md\:p-none {}
+	._md\:pb-none, ._md\:py-none, ._md\:p-none {}
+	._md\:pl-none, ._md\:px-none, ._md\:p-none {}
+	._md\:pt-xxs, ._md\:py-xxs, ._md\:p-xxs {}
+	._md\:pr-xxs, ._md\:px-xxs, ._md\:p-xxs {}
+	._md\:pb-xxs, ._md\:py-xxs, ._md\:p-xxs {}
+	._md\:pl-xxs, ._md\:px-xxs, ._md\:p-xxs {}
+	._md\:pt-xs, ._md\:py-xs, ._md\:p-xs {}
+	._md\:pr-xs, ._md\:px-xs, ._md\:p-xs {}
+	._md\:pb-xs, ._md\:py-xs, ._md\:p-xs {}
+	._md\:pl-xs, ._md\:px-xs, ._md\:p-xs {}
+	._md\:pt-sm, ._md\:py-sm, ._md\:p-sm {}
+	._md\:pr-sm, ._md\:px-sm, ._md\:p-sm {}
+	._md\:pb-sm, ._md\:py-sm, ._md\:p-sm {}
+	._md\:pl-sm, ._md\:px-sm, ._md\:p-sm {}
+	._md\:pt-md, ._md\:py-md, ._md\:p-md {}
+	._md\:pr-md, ._md\:px-md, ._md\:p-md {}
+	._md\:pb-md, ._md\:py-md, ._md\:p-md {}
+	._md\:pl-md, ._md\:px-md, ._md\:p-md {}
+	._md\:pt-df, ._md\:py-df, ._md\:p-df {}
+	._md\:pr-df, ._md\:px-df, ._md\:p-df {}
+	._md\:pb-df, ._md\:py-df, ._md\:p-df {}
+	._md\:pl-df, ._md\:px-df, ._md\:p-df {}
+	._md\:pt-lg, ._md\:py-lg, ._md\:p-lg {}
+	._md\:pr-lg, ._md\:px-lg, ._md\:p-lg {}
+	._md\:pb-lg, ._md\:py-lg, ._md\:p-lg {}
+	._md\:pl-lg, ._md\:px-lg, ._md\:p-lg {}
+	._md\:pt-xl, ._md\:py-xl, ._md\:p-xl {}
+	._md\:pr-xl, ._md\:px-xl, ._md\:p-xl {}
+	._md\:pb-xl, ._md\:py-xl, ._md\:p-xl {}
+	._md\:pl-xl, ._md\:px-xl, ._md\:p-xl {}
+	._md\:pt-xxl, ._md\:py-xxl, ._md\:p-xxl {}
+	._md\:pr-xxl, ._md\:px-xxl, ._md\:p-xxl {}
+	._md\:pb-xxl, ._md\:py-xxl, ._md\:p-xxl {}
+	._md\:pl-xxl, ._md\:px-xxl, ._md\:p-xxl {}
+	._md\:pt-hg, ._md\:py-hg, ._md\:p-hg {}
+	._md\:pr-hg, ._md\:px-hg, ._md\:p-hg {}
+	._md\:pb-hg, ._md\:py-hg, ._md\:p-hg {}
+	._md\:pl-hg, ._md\:px-hg, ._md\:p-hg {}
+	._md\:text-left {}
+	._md\:text-right {}
+	._md\:text-center {}
+	._md\:text-justify {}
+}
+
+@media only screen and (min-width: 1024px) {
+	._df\:grid--1 > * {}
+	._df\:grid--2 > * {}
+	._df\:grid--3 > * {}
+	._df\:grid--4 > * {}
+	._df\:grid--5 > * {}
+	._df\:grid--6 > * {}
+	._df\:grid--7 > * {}
+	._df\:grid--8 > * {}
+	._df\:grid--9 > * {}
+	._df\:grid--10 > * {}
+	._df\:grid--11 > * {}
+	._df\:grid--12 > * {}
+	._df\:grid--auto > * {}
+	._df\:cell--1 {}
+	._df\:cell--2 {}
+	._df\:cell--3 {}
+	._df\:cell--4 {}
+	._df\:cell--5 {}
+	._df\:cell--6 {}
+	._df\:cell--7 {}
+	._df\:cell--8 {}
+	._df\:cell--9 {}
+	._df\:cell--10 {}
+	._df\:cell--11 {}
+	._df\:cell--12 {}
+	._df\:cell--auto {}
+	._df\:owl--xxs > * {}
+	._df\:owl--xs > * {}
+	._df\:owl--sm > * {}
+	._df\:owl--md > * {}
+	._df\:owl--df > * {}
+	._df\:owl--lg > * {}
+	._df\:owl--xl > * {}
+	._df\:owl--xxl > * {}
+	._df\:owl--hg > * {}
+	._df\:spacer--xxs {}
+	._df\:spacer--xs {}
+	._df\:spacer--sm {}
+	._df\:spacer--md {}
+	._df\:spacer--df {}
+	._df\:spacer--lg {}
+	._df\:spacer--xl {}
+	._df\:spacer--xxl {}
+	._df\:spacer--hg {}
+	._df\:flex {}
+	._df\:items-start {}
+	._df\:items-end {}
+	._df\:items-center {}
+	._df\:items-stretch {}
+	._df\:items-baseline {}
+	._df\:justify-start {}
+	._df\:justify-end {}
+	._df\:justify-center {}
+	._df\:justify-between {}
+	._df\:justify-around {}
+	._df\:self-start {}
+	._df\:self-end {}
+	._df\:self-center {}
+	._df\:self-stretch {}
+	._df\:flex-wrap {}
+	._df\:flex-nowrap {}
+	._df\:flex-column {}
+	._df\:flex-column-reverse {}
+	._df\:flex-row {}
+	._df\:flex-row-reverse {}
+	._df\:flex-grow {}
+	._df\:flex-nogrow {}
+	._df\:flex-shrink {}
+	._df\:flex-noshrink {}
+	._df\:mt-none, ._df\:my-none, ._df\:m-none {}
+	._df\:mr-none, ._df\:mx-none, ._df\:m-none {}
+	._df\:mb-none, ._df\:my-none, ._df\:m-none {}
+	._df\:ml-none, ._df\:mx-none, ._df\:m-none {}
+	._df\:mt-auto, ._df\:my-auto, ._df\:m-auto {}
+	._df\:mr-auto, ._df\:mx-auto, ._df\:m-auto {}
+	._df\:mb-auto, ._df\:my-auto, ._df\:m-auto {}
+	._df\:ml-auto, ._df\:mx-auto, ._df\:m-auto {}
+	._df\:mt-xxs, ._df\:my-xxs, ._df\:m-xxs {}
+	._df\:mr-xxs, ._df\:mx-xxs, ._df\:m-xxs {}
+	._df\:mb-xxs, ._df\:my-xxs, ._df\:m-xxs {}
+	._df\:ml-xxs, ._df\:mx-xxs, ._df\:m-xxs {}
+	._df\:nmt-xxs, ._df\:nmy-xxs, ._df\:nm-xxs {}
+	._df\:nmr-xxs, ._df\:nmx-xxs, ._df\:nm-xxs {}
+	._df\:nmb-xxs, ._df\:nmy-xxs, ._df\:nm-xxs {}
+	._df\:nml-xxs, ._df\:nmx-xxs, ._df\:nm-xxs {}
+	._df\:mt-xs, ._df\:my-xs, ._df\:m-xs {}
+	._df\:mr-xs, ._df\:mx-xs, ._df\:m-xs {}
+	._df\:mb-xs, ._df\:my-xs, ._df\:m-xs {}
+	._df\:ml-xs, ._df\:mx-xs, ._df\:m-xs {}
+	._df\:nmt-xs, ._df\:nmy-xs, ._df\:nm-xs {}
+	._df\:nmr-xs, ._df\:nmx-xs, ._df\:nm-xs {}
+	._df\:nmb-xs, ._df\:nmy-xs, ._df\:nm-xs {}
+	._df\:nml-xs, ._df\:nmx-xs, ._df\:nm-xs {}
+	._df\:mt-sm, ._df\:my-sm, ._df\:m-sm {}
+	._df\:mr-sm, ._df\:mx-sm, ._df\:m-sm {}
+	._df\:mb-sm, ._df\:my-sm, ._df\:m-sm {}
+	._df\:ml-sm, ._df\:mx-sm, ._df\:m-sm {}
+	._df\:nmt-sm, ._df\:nmy-sm, ._df\:nm-sm {}
+	._df\:nmr-sm, ._df\:nmx-sm, ._df\:nm-sm {}
+	._df\:nmb-sm, ._df\:nmy-sm, ._df\:nm-sm {}
+	._df\:nml-sm, ._df\:nmx-sm, ._df\:nm-sm {}
+	._df\:mt-md, ._df\:my-md, ._df\:m-md {}
+	._df\:mr-md, ._df\:mx-md, ._df\:m-md {}
+	._df\:mb-md, ._df\:my-md, ._df\:m-md {}
+	._df\:ml-md, ._df\:mx-md, ._df\:m-md {}
+	._df\:nmt-md, ._df\:nmy-md, ._df\:nm-md {}
+	._df\:nmr-md, ._df\:nmx-md, ._df\:nm-md {}
+	._df\:nmb-md, ._df\:nmy-md, ._df\:nm-md {}
+	._df\:nml-md, ._df\:nmx-md, ._df\:nm-md {}
+	._df\:mt-df, ._df\:my-df, ._df\:m-df {}
+	._df\:mr-df, ._df\:mx-df, ._df\:m-df {}
+	._df\:mb-df, ._df\:my-df, ._df\:m-df {}
+	._df\:ml-df, ._df\:mx-df, ._df\:m-df {}
+	._df\:nmt-df, ._df\:nmy-df, ._df\:nm-df {}
+	._df\:nmr-df, ._df\:nmx-df, ._df\:nm-df {}
+	._df\:nmb-df, ._df\:nmy-df, ._df\:nm-df {}
+	._df\:nml-df, ._df\:nmx-df, ._df\:nm-df {}
+	._df\:mt-lg, ._df\:my-lg, ._df\:m-lg {}
+	._df\:mr-lg, ._df\:mx-lg, ._df\:m-lg {}
+	._df\:mb-lg, ._df\:my-lg, ._df\:m-lg {}
+	._df\:ml-lg, ._df\:mx-lg, ._df\:m-lg {}
+	._df\:nmt-lg, ._df\:nmy-lg, ._df\:nm-lg {}
+	._df\:nmr-lg, ._df\:nmx-lg, ._df\:nm-lg {}
+	._df\:nmb-lg, ._df\:nmy-lg, ._df\:nm-lg {}
+	._df\:nml-lg, ._df\:nmx-lg, ._df\:nm-lg {}
+	._df\:mt-xl, ._df\:my-xl, ._df\:m-xl {}
+	._df\:mr-xl, ._df\:mx-xl, ._df\:m-xl {}
+	._df\:mb-xl, ._df\:my-xl, ._df\:m-xl {}
+	._df\:ml-xl, ._df\:mx-xl, ._df\:m-xl {}
+	._df\:nmt-xl, ._df\:nmy-xl, ._df\:nm-xl {}
+	._df\:nmr-xl, ._df\:nmx-xl, ._df\:nm-xl {}
+	._df\:nmb-xl, ._df\:nmy-xl, ._df\:nm-xl {}
+	._df\:nml-xl, ._df\:nmx-xl, ._df\:nm-xl {}
+	._df\:mt-xxl, ._df\:my-xxl, ._df\:m-xxl {}
+	._df\:mr-xxl, ._df\:mx-xxl, ._df\:m-xxl {}
+	._df\:mb-xxl, ._df\:my-xxl, ._df\:m-xxl {}
+	._df\:ml-xxl, ._df\:mx-xxl, ._df\:m-xxl {}
+	._df\:nmt-xxl, ._df\:nmy-xxl, ._df\:nm-xxl {}
+	._df\:nmr-xxl, ._df\:nmx-xxl, ._df\:nm-xxl {}
+	._df\:nmb-xxl, ._df\:nmy-xxl, ._df\:nm-xxl {}
+	._df\:nml-xxl, ._df\:nmx-xxl, ._df\:nm-xxl {}
+	._df\:mt-hg, ._df\:my-hg, ._df\:m-hg {}
+	._df\:mr-hg, ._df\:mx-hg, ._df\:m-hg {}
+	._df\:mb-hg, ._df\:my-hg, ._df\:m-hg {}
+	._df\:ml-hg, ._df\:mx-hg, ._df\:m-hg {}
+	._df\:nmt-hg, ._df\:nmy-hg, ._df\:nm-hg {}
+	._df\:nmr-hg, ._df\:nmx-hg, ._df\:nm-hg {}
+	._df\:nmb-hg, ._df\:nmy-hg, ._df\:nm-hg {}
+	._df\:nml-hg, ._df\:nmx-hg, ._df\:nm-hg {}
+	._df\:pt-none, ._df\:py-none, ._df\:p-none {}
+	._df\:pr-none, ._df\:px-none, ._df\:p-none {}
+	._df\:pb-none, ._df\:py-none, ._df\:p-none {}
+	._df\:pl-none, ._df\:px-none, ._df\:p-none {}
+	._df\:pt-xxs, ._df\:py-xxs, ._df\:p-xxs {}
+	._df\:pr-xxs, ._df\:px-xxs, ._df\:p-xxs {}
+	._df\:pb-xxs, ._df\:py-xxs, ._df\:p-xxs {}
+	._df\:pl-xxs, ._df\:px-xxs, ._df\:p-xxs {}
+	._df\:pt-xs, ._df\:py-xs, ._df\:p-xs {}
+	._df\:pr-xs, ._df\:px-xs, ._df\:p-xs {}
+	._df\:pb-xs, ._df\:py-xs, ._df\:p-xs {}
+	._df\:pl-xs, ._df\:px-xs, ._df\:p-xs {}
+	._df\:pt-sm, ._df\:py-sm, ._df\:p-sm {}
+	._df\:pr-sm, ._df\:px-sm, ._df\:p-sm {}
+	._df\:pb-sm, ._df\:py-sm, ._df\:p-sm {}
+	._df\:pl-sm, ._df\:px-sm, ._df\:p-sm {}
+	._df\:pt-md, ._df\:py-md, ._df\:p-md {}
+	._df\:pr-md, ._df\:px-md, ._df\:p-md {}
+	._df\:pb-md, ._df\:py-md, ._df\:p-md {}
+	._df\:pl-md, ._df\:px-md, ._df\:p-md {}
+	._df\:pt-df, ._df\:py-df, ._df\:p-df {}
+	._df\:pr-df, ._df\:px-df, ._df\:p-df {}
+	._df\:pb-df, ._df\:py-df, ._df\:p-df {}
+	._df\:pl-df, ._df\:px-df, ._df\:p-df {}
+	._df\:pt-lg, ._df\:py-lg, ._df\:p-lg {}
+	._df\:pr-lg, ._df\:px-lg, ._df\:p-lg {}
+	._df\:pb-lg, ._df\:py-lg, ._df\:p-lg {}
+	._df\:pl-lg, ._df\:px-lg, ._df\:p-lg {}
+	._df\:pt-xl, ._df\:py-xl, ._df\:p-xl {}
+	._df\:pr-xl, ._df\:px-xl, ._df\:p-xl {}
+	._df\:pb-xl, ._df\:py-xl, ._df\:p-xl {}
+	._df\:pl-xl, ._df\:px-xl, ._df\:p-xl {}
+	._df\:pt-xxl, ._df\:py-xxl, ._df\:p-xxl {}
+	._df\:pr-xxl, ._df\:px-xxl, ._df\:p-xxl {}
+	._df\:pb-xxl, ._df\:py-xxl, ._df\:p-xxl {}
+	._df\:pl-xxl, ._df\:px-xxl, ._df\:p-xxl {}
+	._df\:pt-hg, ._df\:py-hg, ._df\:p-hg {}
+	._df\:pr-hg, ._df\:px-hg, ._df\:p-hg {}
+	._df\:pb-hg, ._df\:py-hg, ._df\:p-hg {}
+	._df\:pl-hg, ._df\:px-hg, ._df\:p-hg {}
+	._df\:text-left {}
+	._df\:text-right {}
+	._df\:text-center {}
+	._df\:text-justify {}
+}
+
+@media only screen and (min-width: 1280px) {
+	._lg\:grid--1 > * {}
+	._lg\:grid--2 > * {}
+	._lg\:grid--3 > * {}
+	._lg\:grid--4 > * {}
+	._lg\:grid--5 > * {}
+	._lg\:grid--6 > * {}
+	._lg\:grid--7 > * {}
+	._lg\:grid--8 > * {}
+	._lg\:grid--9 > * {}
+	._lg\:grid--10 > * {}
+	._lg\:grid--11 > * {}
+	._lg\:grid--12 > * {}
+	._lg\:grid--auto > * {}
+	._lg\:cell--1 {}
+	._lg\:cell--2 {}
+	._lg\:cell--3 {}
+	._lg\:cell--4 {}
+	._lg\:cell--5 {}
+	._lg\:cell--6 {}
+	._lg\:cell--7 {}
+	._lg\:cell--8 {}
+	._lg\:cell--9 {}
+	._lg\:cell--10 {}
+	._lg\:cell--11 {}
+	._lg\:cell--12 {}
+	._lg\:cell--auto {}
+	._lg\:owl--xxs > * {}
+	._lg\:owl--xs > * {}
+	._lg\:owl--sm > * {}
+	._lg\:owl--md > * {}
+	._lg\:owl--df > * {}
+	._lg\:owl--lg > * {}
+	._lg\:owl--xl > * {}
+	._lg\:owl--xxl > * {}
+	._lg\:owl--hg > * {}
+	._lg\:spacer--xxs {}
+	._lg\:spacer--xs {}
+	._lg\:spacer--sm {}
+	._lg\:spacer--md {}
+	._lg\:spacer--df {}
+	._lg\:spacer--lg {}
+	._lg\:spacer--xl {}
+	._lg\:spacer--xxl {}
+	._lg\:spacer--hg {}
+	._lg\:flex {}
+	._lg\:items-start {}
+	._lg\:items-end {}
+	._lg\:items-center {}
+	._lg\:items-stretch {}
+	._lg\:items-baseline {}
+	._lg\:justify-start {}
+	._lg\:justify-end {}
+	._lg\:justify-center {}
+	._lg\:justify-between {}
+	._lg\:justify-around {}
+	._lg\:self-start {}
+	._lg\:self-end {}
+	._lg\:self-center {}
+	._lg\:self-stretch {}
+	._lg\:flex-wrap {}
+	._lg\:flex-nowrap {}
+	._lg\:flex-column {}
+	._lg\:flex-column-reverse {}
+	._lg\:flex-row {}
+	._lg\:flex-row-reverse {}
+	._lg\:flex-grow {}
+	._lg\:flex-nogrow {}
+	._lg\:flex-shrink {}
+	._lg\:flex-noshrink {}
+	._lg\:mt-none, ._lg\:my-none, ._lg\:m-none {}
+	._lg\:mr-none, ._lg\:mx-none, ._lg\:m-none {}
+	._lg\:mb-none, ._lg\:my-none, ._lg\:m-none {}
+	._lg\:ml-none, ._lg\:mx-none, ._lg\:m-none {}
+	._lg\:mt-auto, ._lg\:my-auto, ._lg\:m-auto {}
+	._lg\:mr-auto, ._lg\:mx-auto, ._lg\:m-auto {}
+	._lg\:mb-auto, ._lg\:my-auto, ._lg\:m-auto {}
+	._lg\:ml-auto, ._lg\:mx-auto, ._lg\:m-auto {}
+	._lg\:mt-xxs, ._lg\:my-xxs, ._lg\:m-xxs {}
+	._lg\:mr-xxs, ._lg\:mx-xxs, ._lg\:m-xxs {}
+	._lg\:mb-xxs, ._lg\:my-xxs, ._lg\:m-xxs {}
+	._lg\:ml-xxs, ._lg\:mx-xxs, ._lg\:m-xxs {}
+	._lg\:nmt-xxs, ._lg\:nmy-xxs, ._lg\:nm-xxs {}
+	._lg\:nmr-xxs, ._lg\:nmx-xxs, ._lg\:nm-xxs {}
+	._lg\:nmb-xxs, ._lg\:nmy-xxs, ._lg\:nm-xxs {}
+	._lg\:nml-xxs, ._lg\:nmx-xxs, ._lg\:nm-xxs {}
+	._lg\:mt-xs, ._lg\:my-xs, ._lg\:m-xs {}
+	._lg\:mr-xs, ._lg\:mx-xs, ._lg\:m-xs {}
+	._lg\:mb-xs, ._lg\:my-xs, ._lg\:m-xs {}
+	._lg\:ml-xs, ._lg\:mx-xs, ._lg\:m-xs {}
+	._lg\:nmt-xs, ._lg\:nmy-xs, ._lg\:nm-xs {}
+	._lg\:nmr-xs, ._lg\:nmx-xs, ._lg\:nm-xs {}
+	._lg\:nmb-xs, ._lg\:nmy-xs, ._lg\:nm-xs {}
+	._lg\:nml-xs, ._lg\:nmx-xs, ._lg\:nm-xs {}
+	._lg\:mt-sm, ._lg\:my-sm, ._lg\:m-sm {}
+	._lg\:mr-sm, ._lg\:mx-sm, ._lg\:m-sm {}
+	._lg\:mb-sm, ._lg\:my-sm, ._lg\:m-sm {}
+	._lg\:ml-sm, ._lg\:mx-sm, ._lg\:m-sm {}
+	._lg\:nmt-sm, ._lg\:nmy-sm, ._lg\:nm-sm {}
+	._lg\:nmr-sm, ._lg\:nmx-sm, ._lg\:nm-sm {}
+	._lg\:nmb-sm, ._lg\:nmy-sm, ._lg\:nm-sm {}
+	._lg\:nml-sm, ._lg\:nmx-sm, ._lg\:nm-sm {}
+	._lg\:mt-md, ._lg\:my-md, ._lg\:m-md {}
+	._lg\:mr-md, ._lg\:mx-md, ._lg\:m-md {}
+	._lg\:mb-md, ._lg\:my-md, ._lg\:m-md {}
+	._lg\:ml-md, ._lg\:mx-md, ._lg\:m-md {}
+	._lg\:nmt-md, ._lg\:nmy-md, ._lg\:nm-md {}
+	._lg\:nmr-md, ._lg\:nmx-md, ._lg\:nm-md {}
+	._lg\:nmb-md, ._lg\:nmy-md, ._lg\:nm-md {}
+	._lg\:nml-md, ._lg\:nmx-md, ._lg\:nm-md {}
+	._lg\:mt-df, ._lg\:my-df, ._lg\:m-df {}
+	._lg\:mr-df, ._lg\:mx-df, ._lg\:m-df {}
+	._lg\:mb-df, ._lg\:my-df, ._lg\:m-df {}
+	._lg\:ml-df, ._lg\:mx-df, ._lg\:m-df {}
+	._lg\:nmt-df, ._lg\:nmy-df, ._lg\:nm-df {}
+	._lg\:nmr-df, ._lg\:nmx-df, ._lg\:nm-df {}
+	._lg\:nmb-df, ._lg\:nmy-df, ._lg\:nm-df {}
+	._lg\:nml-df, ._lg\:nmx-df, ._lg\:nm-df {}
+	._lg\:mt-lg, ._lg\:my-lg, ._lg\:m-lg {}
+	._lg\:mr-lg, ._lg\:mx-lg, ._lg\:m-lg {}
+	._lg\:mb-lg, ._lg\:my-lg, ._lg\:m-lg {}
+	._lg\:ml-lg, ._lg\:mx-lg, ._lg\:m-lg {}
+	._lg\:nmt-lg, ._lg\:nmy-lg, ._lg\:nm-lg {}
+	._lg\:nmr-lg, ._lg\:nmx-lg, ._lg\:nm-lg {}
+	._lg\:nmb-lg, ._lg\:nmy-lg, ._lg\:nm-lg {}
+	._lg\:nml-lg, ._lg\:nmx-lg, ._lg\:nm-lg {}
+	._lg\:mt-xl, ._lg\:my-xl, ._lg\:m-xl {}
+	._lg\:mr-xl, ._lg\:mx-xl, ._lg\:m-xl {}
+	._lg\:mb-xl, ._lg\:my-xl, ._lg\:m-xl {}
+	._lg\:ml-xl, ._lg\:mx-xl, ._lg\:m-xl {}
+	._lg\:nmt-xl, ._lg\:nmy-xl, ._lg\:nm-xl {}
+	._lg\:nmr-xl, ._lg\:nmx-xl, ._lg\:nm-xl {}
+	._lg\:nmb-xl, ._lg\:nmy-xl, ._lg\:nm-xl {}
+	._lg\:nml-xl, ._lg\:nmx-xl, ._lg\:nm-xl {}
+	._lg\:mt-xxl, ._lg\:my-xxl, ._lg\:m-xxl {}
+	._lg\:mr-xxl, ._lg\:mx-xxl, ._lg\:m-xxl {}
+	._lg\:mb-xxl, ._lg\:my-xxl, ._lg\:m-xxl {}
+	._lg\:ml-xxl, ._lg\:mx-xxl, ._lg\:m-xxl {}
+	._lg\:nmt-xxl, ._lg\:nmy-xxl, ._lg\:nm-xxl {}
+	._lg\:nmr-xxl, ._lg\:nmx-xxl, ._lg\:nm-xxl {}
+	._lg\:nmb-xxl, ._lg\:nmy-xxl, ._lg\:nm-xxl {}
+	._lg\:nml-xxl, ._lg\:nmx-xxl, ._lg\:nm-xxl {}
+	._lg\:mt-hg, ._lg\:my-hg, ._lg\:m-hg {}
+	._lg\:mr-hg, ._lg\:mx-hg, ._lg\:m-hg {}
+	._lg\:mb-hg, ._lg\:my-hg, ._lg\:m-hg {}
+	._lg\:ml-hg, ._lg\:mx-hg, ._lg\:m-hg {}
+	._lg\:nmt-hg, ._lg\:nmy-hg, ._lg\:nm-hg {}
+	._lg\:nmr-hg, ._lg\:nmx-hg, ._lg\:nm-hg {}
+	._lg\:nmb-hg, ._lg\:nmy-hg, ._lg\:nm-hg {}
+	._lg\:nml-hg, ._lg\:nmx-hg, ._lg\:nm-hg {}
+	._lg\:pt-none, ._lg\:py-none, ._lg\:p-none {}
+	._lg\:pr-none, ._lg\:px-none, ._lg\:p-none {}
+	._lg\:pb-none, ._lg\:py-none, ._lg\:p-none {}
+	._lg\:pl-none, ._lg\:px-none, ._lg\:p-none {}
+	._lg\:pt-xxs, ._lg\:py-xxs, ._lg\:p-xxs {}
+	._lg\:pr-xxs, ._lg\:px-xxs, ._lg\:p-xxs {}
+	._lg\:pb-xxs, ._lg\:py-xxs, ._lg\:p-xxs {}
+	._lg\:pl-xxs, ._lg\:px-xxs, ._lg\:p-xxs {}
+	._lg\:pt-xs, ._lg\:py-xs, ._lg\:p-xs {}
+	._lg\:pr-xs, ._lg\:px-xs, ._lg\:p-xs {}
+	._lg\:pb-xs, ._lg\:py-xs, ._lg\:p-xs {}
+	._lg\:pl-xs, ._lg\:px-xs, ._lg\:p-xs {}
+	._lg\:pt-sm, ._lg\:py-sm, ._lg\:p-sm {}
+	._lg\:pr-sm, ._lg\:px-sm, ._lg\:p-sm {}
+	._lg\:pb-sm, ._lg\:py-sm, ._lg\:p-sm {}
+	._lg\:pl-sm, ._lg\:px-sm, ._lg\:p-sm {}
+	._lg\:pt-md, ._lg\:py-md, ._lg\:p-md {}
+	._lg\:pr-md, ._lg\:px-md, ._lg\:p-md {}
+	._lg\:pb-md, ._lg\:py-md, ._lg\:p-md {}
+	._lg\:pl-md, ._lg\:px-md, ._lg\:p-md {}
+	._lg\:pt-df, ._lg\:py-df, ._lg\:p-df {}
+	._lg\:pr-df, ._lg\:px-df, ._lg\:p-df {}
+	._lg\:pb-df, ._lg\:py-df, ._lg\:p-df {}
+	._lg\:pl-df, ._lg\:px-df, ._lg\:p-df {}
+	._lg\:pt-lg, ._lg\:py-lg, ._lg\:p-lg {}
+	._lg\:pr-lg, ._lg\:px-lg, ._lg\:p-lg {}
+	._lg\:pb-lg, ._lg\:py-lg, ._lg\:p-lg {}
+	._lg\:pl-lg, ._lg\:px-lg, ._lg\:p-lg {}
+	._lg\:pt-xl, ._lg\:py-xl, ._lg\:p-xl {}
+	._lg\:pr-xl, ._lg\:px-xl, ._lg\:p-xl {}
+	._lg\:pb-xl, ._lg\:py-xl, ._lg\:p-xl {}
+	._lg\:pl-xl, ._lg\:px-xl, ._lg\:p-xl {}
+	._lg\:pt-xxl, ._lg\:py-xxl, ._lg\:p-xxl {}
+	._lg\:pr-xxl, ._lg\:px-xxl, ._lg\:p-xxl {}
+	._lg\:pb-xxl, ._lg\:py-xxl, ._lg\:p-xxl {}
+	._lg\:pl-xxl, ._lg\:px-xxl, ._lg\:p-xxl {}
+	._lg\:pt-hg, ._lg\:py-hg, ._lg\:p-hg {}
+	._lg\:pr-hg, ._lg\:px-hg, ._lg\:p-hg {}
+	._lg\:pb-hg, ._lg\:py-hg, ._lg\:p-hg {}
+	._lg\:pl-hg, ._lg\:px-hg, ._lg\:p-hg {}
+	._lg\:text-left {}
+	._lg\:text-right {}
+	._lg\:text-center {}
+	._lg\:text-justify {}
+}
+
+@media only screen and (min-width: 1420px) {
+	._xl\:grid--1 > * {}
+	._xl\:grid--2 > * {}
+	._xl\:grid--3 > * {}
+	._xl\:grid--4 > * {}
+	._xl\:grid--5 > * {}
+	._xl\:grid--6 > * {}
+	._xl\:grid--7 > * {}
+	._xl\:grid--8 > * {}
+	._xl\:grid--9 > * {}
+	._xl\:grid--10 > * {}
+	._xl\:grid--11 > * {}
+	._xl\:grid--12 > * {}
+	._xl\:grid--auto > * {}
+	._xl\:cell--1 {}
+	._xl\:cell--2 {}
+	._xl\:cell--3 {}
+	._xl\:cell--4 {}
+	._xl\:cell--5 {}
+	._xl\:cell--6 {}
+	._xl\:cell--7 {}
+	._xl\:cell--8 {}
+	._xl\:cell--9 {}
+	._xl\:cell--10 {}
+	._xl\:cell--11 {}
+	._xl\:cell--12 {}
+	._xl\:cell--auto {}
+	._xl\:owl--xxs > * {}
+	._xl\:owl--xs > * {}
+	._xl\:owl--sm > * {}
+	._xl\:owl--md > * {}
+	._xl\:owl--df > * {}
+	._xl\:owl--lg > * {}
+	._xl\:owl--xl > * {}
+	._xl\:owl--xxl > * {}
+	._xl\:owl--hg > * {}
+	._xl\:spacer--xxs {}
+	._xl\:spacer--xs {}
+	._xl\:spacer--sm {}
+	._xl\:spacer--md {}
+	._xl\:spacer--df {}
+	._xl\:spacer--lg {}
+	._xl\:spacer--xl {}
+	._xl\:spacer--xxl {}
+	._xl\:spacer--hg {}
+	._xl\:flex {}
+	._xl\:items-start {}
+	._xl\:items-end {}
+	._xl\:items-center {}
+	._xl\:items-stretch {}
+	._xl\:items-baseline {}
+	._xl\:justify-start {}
+	._xl\:justify-end {}
+	._xl\:justify-center {}
+	._xl\:justify-between {}
+	._xl\:justify-around {}
+	._xl\:self-start {}
+	._xl\:self-end {}
+	._xl\:self-center {}
+	._xl\:self-stretch {}
+	._xl\:flex-wrap {}
+	._xl\:flex-nowrap {}
+	._xl\:flex-column {}
+	._xl\:flex-column-reverse {}
+	._xl\:flex-row {}
+	._xl\:flex-row-reverse {}
+	._xl\:flex-grow {}
+	._xl\:flex-nogrow {}
+	._xl\:flex-shrink {}
+	._xl\:flex-noshrink {}
+	._xl\:mt-none, ._xl\:my-none, ._xl\:m-none {}
+	._xl\:mr-none, ._xl\:mx-none, ._xl\:m-none {}
+	._xl\:mb-none, ._xl\:my-none, ._xl\:m-none {}
+	._xl\:ml-none, ._xl\:mx-none, ._xl\:m-none {}
+	._xl\:mt-auto, ._xl\:my-auto, ._xl\:m-auto {}
+	._xl\:mr-auto, ._xl\:mx-auto, ._xl\:m-auto {}
+	._xl\:mb-auto, ._xl\:my-auto, ._xl\:m-auto {}
+	._xl\:ml-auto, ._xl\:mx-auto, ._xl\:m-auto {}
+	._xl\:mt-xxs, ._xl\:my-xxs, ._xl\:m-xxs {}
+	._xl\:mr-xxs, ._xl\:mx-xxs, ._xl\:m-xxs {}
+	._xl\:mb-xxs, ._xl\:my-xxs, ._xl\:m-xxs {}
+	._xl\:ml-xxs, ._xl\:mx-xxs, ._xl\:m-xxs {}
+	._xl\:nmt-xxs, ._xl\:nmy-xxs, ._xl\:nm-xxs {}
+	._xl\:nmr-xxs, ._xl\:nmx-xxs, ._xl\:nm-xxs {}
+	._xl\:nmb-xxs, ._xl\:nmy-xxs, ._xl\:nm-xxs {}
+	._xl\:nml-xxs, ._xl\:nmx-xxs, ._xl\:nm-xxs {}
+	._xl\:mt-xs, ._xl\:my-xs, ._xl\:m-xs {}
+	._xl\:mr-xs, ._xl\:mx-xs, ._xl\:m-xs {}
+	._xl\:mb-xs, ._xl\:my-xs, ._xl\:m-xs {}
+	._xl\:ml-xs, ._xl\:mx-xs, ._xl\:m-xs {}
+	._xl\:nmt-xs, ._xl\:nmy-xs, ._xl\:nm-xs {}
+	._xl\:nmr-xs, ._xl\:nmx-xs, ._xl\:nm-xs {}
+	._xl\:nmb-xs, ._xl\:nmy-xs, ._xl\:nm-xs {}
+	._xl\:nml-xs, ._xl\:nmx-xs, ._xl\:nm-xs {}
+	._xl\:mt-sm, ._xl\:my-sm, ._xl\:m-sm {}
+	._xl\:mr-sm, ._xl\:mx-sm, ._xl\:m-sm {}
+	._xl\:mb-sm, ._xl\:my-sm, ._xl\:m-sm {}
+	._xl\:ml-sm, ._xl\:mx-sm, ._xl\:m-sm {}
+	._xl\:nmt-sm, ._xl\:nmy-sm, ._xl\:nm-sm {}
+	._xl\:nmr-sm, ._xl\:nmx-sm, ._xl\:nm-sm {}
+	._xl\:nmb-sm, ._xl\:nmy-sm, ._xl\:nm-sm {}
+	._xl\:nml-sm, ._xl\:nmx-sm, ._xl\:nm-sm {}
+	._xl\:mt-md, ._xl\:my-md, ._xl\:m-md {}
+	._xl\:mr-md, ._xl\:mx-md, ._xl\:m-md {}
+	._xl\:mb-md, ._xl\:my-md, ._xl\:m-md {}
+	._xl\:ml-md, ._xl\:mx-md, ._xl\:m-md {}
+	._xl\:nmt-md, ._xl\:nmy-md, ._xl\:nm-md {}
+	._xl\:nmr-md, ._xl\:nmx-md, ._xl\:nm-md {}
+	._xl\:nmb-md, ._xl\:nmy-md, ._xl\:nm-md {}
+	._xl\:nml-md, ._xl\:nmx-md, ._xl\:nm-md {}
+	._xl\:mt-df, ._xl\:my-df, ._xl\:m-df {}
+	._xl\:mr-df, ._xl\:mx-df, ._xl\:m-df {}
+	._xl\:mb-df, ._xl\:my-df, ._xl\:m-df {}
+	._xl\:ml-df, ._xl\:mx-df, ._xl\:m-df {}
+	._xl\:nmt-df, ._xl\:nmy-df, ._xl\:nm-df {}
+	._xl\:nmr-df, ._xl\:nmx-df, ._xl\:nm-df {}
+	._xl\:nmb-df, ._xl\:nmy-df, ._xl\:nm-df {}
+	._xl\:nml-df, ._xl\:nmx-df, ._xl\:nm-df {}
+	._xl\:mt-lg, ._xl\:my-lg, ._xl\:m-lg {}
+	._xl\:mr-lg, ._xl\:mx-lg, ._xl\:m-lg {}
+	._xl\:mb-lg, ._xl\:my-lg, ._xl\:m-lg {}
+	._xl\:ml-lg, ._xl\:mx-lg, ._xl\:m-lg {}
+	._xl\:nmt-lg, ._xl\:nmy-lg, ._xl\:nm-lg {}
+	._xl\:nmr-lg, ._xl\:nmx-lg, ._xl\:nm-lg {}
+	._xl\:nmb-lg, ._xl\:nmy-lg, ._xl\:nm-lg {}
+	._xl\:nml-lg, ._xl\:nmx-lg, ._xl\:nm-lg {}
+	._xl\:mt-xl, ._xl\:my-xl, ._xl\:m-xl {}
+	._xl\:mr-xl, ._xl\:mx-xl, ._xl\:m-xl {}
+	._xl\:mb-xl, ._xl\:my-xl, ._xl\:m-xl {}
+	._xl\:ml-xl, ._xl\:mx-xl, ._xl\:m-xl {}
+	._xl\:nmt-xl, ._xl\:nmy-xl, ._xl\:nm-xl {}
+	._xl\:nmr-xl, ._xl\:nmx-xl, ._xl\:nm-xl {}
+	._xl\:nmb-xl, ._xl\:nmy-xl, ._xl\:nm-xl {}
+	._xl\:nml-xl, ._xl\:nmx-xl, ._xl\:nm-xl {}
+	._xl\:mt-xxl, ._xl\:my-xxl, ._xl\:m-xxl {}
+	._xl\:mr-xxl, ._xl\:mx-xxl, ._xl\:m-xxl {}
+	._xl\:mb-xxl, ._xl\:my-xxl, ._xl\:m-xxl {}
+	._xl\:ml-xxl, ._xl\:mx-xxl, ._xl\:m-xxl {}
+	._xl\:nmt-xxl, ._xl\:nmy-xxl, ._xl\:nm-xxl {}
+	._xl\:nmr-xxl, ._xl\:nmx-xxl, ._xl\:nm-xxl {}
+	._xl\:nmb-xxl, ._xl\:nmy-xxl, ._xl\:nm-xxl {}
+	._xl\:nml-xxl, ._xl\:nmx-xxl, ._xl\:nm-xxl {}
+	._xl\:mt-hg, ._xl\:my-hg, ._xl\:m-hg {}
+	._xl\:mr-hg, ._xl\:mx-hg, ._xl\:m-hg {}
+	._xl\:mb-hg, ._xl\:my-hg, ._xl\:m-hg {}
+	._xl\:ml-hg, ._xl\:mx-hg, ._xl\:m-hg {}
+	._xl\:nmt-hg, ._xl\:nmy-hg, ._xl\:nm-hg {}
+	._xl\:nmr-hg, ._xl\:nmx-hg, ._xl\:nm-hg {}
+	._xl\:nmb-hg, ._xl\:nmy-hg, ._xl\:nm-hg {}
+	._xl\:nml-hg, ._xl\:nmx-hg, ._xl\:nm-hg {}
+	._xl\:pt-none, ._xl\:py-none, ._xl\:p-none {}
+	._xl\:pr-none, ._xl\:px-none, ._xl\:p-none {}
+	._xl\:pb-none, ._xl\:py-none, ._xl\:p-none {}
+	._xl\:pl-none, ._xl\:px-none, ._xl\:p-none {}
+	._xl\:pt-xxs, ._xl\:py-xxs, ._xl\:p-xxs {}
+	._xl\:pr-xxs, ._xl\:px-xxs, ._xl\:p-xxs {}
+	._xl\:pb-xxs, ._xl\:py-xxs, ._xl\:p-xxs {}
+	._xl\:pl-xxs, ._xl\:px-xxs, ._xl\:p-xxs {}
+	._xl\:pt-xs, ._xl\:py-xs, ._xl\:p-xs {}
+	._xl\:pr-xs, ._xl\:px-xs, ._xl\:p-xs {}
+	._xl\:pb-xs, ._xl\:py-xs, ._xl\:p-xs {}
+	._xl\:pl-xs, ._xl\:px-xs, ._xl\:p-xs {}
+	._xl\:pt-sm, ._xl\:py-sm, ._xl\:p-sm {}
+	._xl\:pr-sm, ._xl\:px-sm, ._xl\:p-sm {}
+	._xl\:pb-sm, ._xl\:py-sm, ._xl\:p-sm {}
+	._xl\:pl-sm, ._xl\:px-sm, ._xl\:p-sm {}
+	._xl\:pt-md, ._xl\:py-md, ._xl\:p-md {}
+	._xl\:pr-md, ._xl\:px-md, ._xl\:p-md {}
+	._xl\:pb-md, ._xl\:py-md, ._xl\:p-md {}
+	._xl\:pl-md, ._xl\:px-md, ._xl\:p-md {}
+	._xl\:pt-df, ._xl\:py-df, ._xl\:p-df {}
+	._xl\:pr-df, ._xl\:px-df, ._xl\:p-df {}
+	._xl\:pb-df, ._xl\:py-df, ._xl\:p-df {}
+	._xl\:pl-df, ._xl\:px-df, ._xl\:p-df {}
+	._xl\:pt-lg, ._xl\:py-lg, ._xl\:p-lg {}
+	._xl\:pr-lg, ._xl\:px-lg, ._xl\:p-lg {}
+	._xl\:pb-lg, ._xl\:py-lg, ._xl\:p-lg {}
+	._xl\:pl-lg, ._xl\:px-lg, ._xl\:p-lg {}
+	._xl\:pt-xl, ._xl\:py-xl, ._xl\:p-xl {}
+	._xl\:pr-xl, ._xl\:px-xl, ._xl\:p-xl {}
+	._xl\:pb-xl, ._xl\:py-xl, ._xl\:p-xl {}
+	._xl\:pl-xl, ._xl\:px-xl, ._xl\:p-xl {}
+	._xl\:pt-xxl, ._xl\:py-xxl, ._xl\:p-xxl {}
+	._xl\:pr-xxl, ._xl\:px-xxl, ._xl\:p-xxl {}
+	._xl\:pb-xxl, ._xl\:py-xxl, ._xl\:p-xxl {}
+	._xl\:pl-xxl, ._xl\:px-xxl, ._xl\:p-xxl {}
+	._xl\:pt-hg, ._xl\:py-hg, ._xl\:p-hg {}
+	._xl\:pr-hg, ._xl\:px-hg, ._xl\:p-hg {}
+	._xl\:pb-hg, ._xl\:py-hg, ._xl\:p-hg {}
+	._xl\:pl-hg, ._xl\:px-hg, ._xl\:p-hg {}
+	._xl\:text-left {}
+	._xl\:text-right {}
+	._xl\:text-center {}
+	._xl\:text-justify {}
+}
+
+@media only screen and (min-width: 1660px) {
+	._xxl\:grid--1 > * {}
+	._xxl\:grid--2 > * {}
+	._xxl\:grid--3 > * {}
+	._xxl\:grid--4 > * {}
+	._xxl\:grid--5 > * {}
+	._xxl\:grid--6 > * {}
+	._xxl\:grid--7 > * {}
+	._xxl\:grid--8 > * {}
+	._xxl\:grid--9 > * {}
+	._xxl\:grid--10 > * {}
+	._xxl\:grid--11 > * {}
+	._xxl\:grid--12 > * {}
+	._xxl\:grid--auto > * {}
+	._xxl\:cell--1 {}
+	._xxl\:cell--2 {}
+	._xxl\:cell--3 {}
+	._xxl\:cell--4 {}
+	._xxl\:cell--5 {}
+	._xxl\:cell--6 {}
+	._xxl\:cell--7 {}
+	._xxl\:cell--8 {}
+	._xxl\:cell--9 {}
+	._xxl\:cell--10 {}
+	._xxl\:cell--11 {}
+	._xxl\:cell--12 {}
+	._xxl\:cell--auto {}
+	._xxl\:owl--xxs > * {}
+	._xxl\:owl--xs > * {}
+	._xxl\:owl--sm > * {}
+	._xxl\:owl--md > * {}
+	._xxl\:owl--df > * {}
+	._xxl\:owl--lg > * {}
+	._xxl\:owl--xl > * {}
+	._xxl\:owl--xxl > * {}
+	._xxl\:owl--hg > * {}
+	._xxl\:spacer--xxs {}
+	._xxl\:spacer--xs {}
+	._xxl\:spacer--sm {}
+	._xxl\:spacer--md {}
+	._xxl\:spacer--df {}
+	._xxl\:spacer--lg {}
+	._xxl\:spacer--xl {}
+	._xxl\:spacer--xxl {}
+	._xxl\:spacer--hg {}
+	._xxl\:flex {}
+	._xxl\:items-start {}
+	._xxl\:items-end {}
+	._xxl\:items-center {}
+	._xxl\:items-stretch {}
+	._xxl\:items-baseline {}
+	._xxl\:justify-start {}
+	._xxl\:justify-end {}
+	._xxl\:justify-center {}
+	._xxl\:justify-between {}
+	._xxl\:justify-around {}
+	._xxl\:self-start {}
+	._xxl\:self-end {}
+	._xxl\:self-center {}
+	._xxl\:self-stretch {}
+	._xxl\:flex-wrap {}
+	._xxl\:flex-nowrap {}
+	._xxl\:flex-column {}
+	._xxl\:flex-column-reverse {}
+	._xxl\:flex-row {}
+	._xxl\:flex-row-reverse {}
+	._xxl\:flex-grow {}
+	._xxl\:flex-nogrow {}
+	._xxl\:flex-shrink {}
+	._xxl\:flex-noshrink {}
+	._xxl\:mt-none, ._xxl\:my-none, ._xxl\:m-none {}
+	._xxl\:mr-none, ._xxl\:mx-none, ._xxl\:m-none {}
+	._xxl\:mb-none, ._xxl\:my-none, ._xxl\:m-none {}
+	._xxl\:ml-none, ._xxl\:mx-none, ._xxl\:m-none {}
+	._xxl\:mt-auto, ._xxl\:my-auto, ._xxl\:m-auto {}
+	._xxl\:mr-auto, ._xxl\:mx-auto, ._xxl\:m-auto {}
+	._xxl\:mb-auto, ._xxl\:my-auto, ._xxl\:m-auto {}
+	._xxl\:ml-auto, ._xxl\:mx-auto, ._xxl\:m-auto {}
+	._xxl\:mt-xxs, ._xxl\:my-xxs, ._xxl\:m-xxs {}
+	._xxl\:mr-xxs, ._xxl\:mx-xxs, ._xxl\:m-xxs {}
+	._xxl\:mb-xxs, ._xxl\:my-xxs, ._xxl\:m-xxs {}
+	._xxl\:ml-xxs, ._xxl\:mx-xxs, ._xxl\:m-xxs {}
+	._xxl\:nmt-xxs, ._xxl\:nmy-xxs, ._xxl\:nm-xxs {}
+	._xxl\:nmr-xxs, ._xxl\:nmx-xxs, ._xxl\:nm-xxs {}
+	._xxl\:nmb-xxs, ._xxl\:nmy-xxs, ._xxl\:nm-xxs {}
+	._xxl\:nml-xxs, ._xxl\:nmx-xxs, ._xxl\:nm-xxs {}
+	._xxl\:mt-xs, ._xxl\:my-xs, ._xxl\:m-xs {}
+	._xxl\:mr-xs, ._xxl\:mx-xs, ._xxl\:m-xs {}
+	._xxl\:mb-xs, ._xxl\:my-xs, ._xxl\:m-xs {}
+	._xxl\:ml-xs, ._xxl\:mx-xs, ._xxl\:m-xs {}
+	._xxl\:nmt-xs, ._xxl\:nmy-xs, ._xxl\:nm-xs {}
+	._xxl\:nmr-xs, ._xxl\:nmx-xs, ._xxl\:nm-xs {}
+	._xxl\:nmb-xs, ._xxl\:nmy-xs, ._xxl\:nm-xs {}
+	._xxl\:nml-xs, ._xxl\:nmx-xs, ._xxl\:nm-xs {}
+	._xxl\:mt-sm, ._xxl\:my-sm, ._xxl\:m-sm {}
+	._xxl\:mr-sm, ._xxl\:mx-sm, ._xxl\:m-sm {}
+	._xxl\:mb-sm, ._xxl\:my-sm, ._xxl\:m-sm {}
+	._xxl\:ml-sm, ._xxl\:mx-sm, ._xxl\:m-sm {}
+	._xxl\:nmt-sm, ._xxl\:nmy-sm, ._xxl\:nm-sm {}
+	._xxl\:nmr-sm, ._xxl\:nmx-sm, ._xxl\:nm-sm {}
+	._xxl\:nmb-sm, ._xxl\:nmy-sm, ._xxl\:nm-sm {}
+	._xxl\:nml-sm, ._xxl\:nmx-sm, ._xxl\:nm-sm {}
+	._xxl\:mt-md, ._xxl\:my-md, ._xxl\:m-md {}
+	._xxl\:mr-md, ._xxl\:mx-md, ._xxl\:m-md {}
+	._xxl\:mb-md, ._xxl\:my-md, ._xxl\:m-md {}
+	._xxl\:ml-md, ._xxl\:mx-md, ._xxl\:m-md {}
+	._xxl\:nmt-md, ._xxl\:nmy-md, ._xxl\:nm-md {}
+	._xxl\:nmr-md, ._xxl\:nmx-md, ._xxl\:nm-md {}
+	._xxl\:nmb-md, ._xxl\:nmy-md, ._xxl\:nm-md {}
+	._xxl\:nml-md, ._xxl\:nmx-md, ._xxl\:nm-md {}
+	._xxl\:mt-df, ._xxl\:my-df, ._xxl\:m-df {}
+	._xxl\:mr-df, ._xxl\:mx-df, ._xxl\:m-df {}
+	._xxl\:mb-df, ._xxl\:my-df, ._xxl\:m-df {}
+	._xxl\:ml-df, ._xxl\:mx-df, ._xxl\:m-df {}
+	._xxl\:nmt-df, ._xxl\:nmy-df, ._xxl\:nm-df {}
+	._xxl\:nmr-df, ._xxl\:nmx-df, ._xxl\:nm-df {}
+	._xxl\:nmb-df, ._xxl\:nmy-df, ._xxl\:nm-df {}
+	._xxl\:nml-df, ._xxl\:nmx-df, ._xxl\:nm-df {}
+	._xxl\:mt-lg, ._xxl\:my-lg, ._xxl\:m-lg {}
+	._xxl\:mr-lg, ._xxl\:mx-lg, ._xxl\:m-lg {}
+	._xxl\:mb-lg, ._xxl\:my-lg, ._xxl\:m-lg {}
+	._xxl\:ml-lg, ._xxl\:mx-lg, ._xxl\:m-lg {}
+	._xxl\:nmt-lg, ._xxl\:nmy-lg, ._xxl\:nm-lg {}
+	._xxl\:nmr-lg, ._xxl\:nmx-lg, ._xxl\:nm-lg {}
+	._xxl\:nmb-lg, ._xxl\:nmy-lg, ._xxl\:nm-lg {}
+	._xxl\:nml-lg, ._xxl\:nmx-lg, ._xxl\:nm-lg {}
+	._xxl\:mt-xl, ._xxl\:my-xl, ._xxl\:m-xl {}
+	._xxl\:mr-xl, ._xxl\:mx-xl, ._xxl\:m-xl {}
+	._xxl\:mb-xl, ._xxl\:my-xl, ._xxl\:m-xl {}
+	._xxl\:ml-xl, ._xxl\:mx-xl, ._xxl\:m-xl {}
+	._xxl\:nmt-xl, ._xxl\:nmy-xl, ._xxl\:nm-xl {}
+	._xxl\:nmr-xl, ._xxl\:nmx-xl, ._xxl\:nm-xl {}
+	._xxl\:nmb-xl, ._xxl\:nmy-xl, ._xxl\:nm-xl {}
+	._xxl\:nml-xl, ._xxl\:nmx-xl, ._xxl\:nm-xl {}
+	._xxl\:mt-xxl, ._xxl\:my-xxl, ._xxl\:m-xxl {}
+	._xxl\:mr-xxl, ._xxl\:mx-xxl, ._xxl\:m-xxl {}
+	._xxl\:mb-xxl, ._xxl\:my-xxl, ._xxl\:m-xxl {}
+	._xxl\:ml-xxl, ._xxl\:mx-xxl, ._xxl\:m-xxl {}
+	._xxl\:nmt-xxl, ._xxl\:nmy-xxl, ._xxl\:nm-xxl {}
+	._xxl\:nmr-xxl, ._xxl\:nmx-xxl, ._xxl\:nm-xxl {}
+	._xxl\:nmb-xxl, ._xxl\:nmy-xxl, ._xxl\:nm-xxl {}
+	._xxl\:nml-xxl, ._xxl\:nmx-xxl, ._xxl\:nm-xxl {}
+	._xxl\:mt-hg, ._xxl\:my-hg, ._xxl\:m-hg {}
+	._xxl\:mr-hg, ._xxl\:mx-hg, ._xxl\:m-hg {}
+	._xxl\:mb-hg, ._xxl\:my-hg, ._xxl\:m-hg {}
+	._xxl\:ml-hg, ._xxl\:mx-hg, ._xxl\:m-hg {}
+	._xxl\:nmt-hg, ._xxl\:nmy-hg, ._xxl\:nm-hg {}
+	._xxl\:nmr-hg, ._xxl\:nmx-hg, ._xxl\:nm-hg {}
+	._xxl\:nmb-hg, ._xxl\:nmy-hg, ._xxl\:nm-hg {}
+	._xxl\:nml-hg, ._xxl\:nmx-hg, ._xxl\:nm-hg {}
+	._xxl\:pt-none, ._xxl\:py-none, ._xxl\:p-none {}
+	._xxl\:pr-none, ._xxl\:px-none, ._xxl\:p-none {}
+	._xxl\:pb-none, ._xxl\:py-none, ._xxl\:p-none {}
+	._xxl\:pl-none, ._xxl\:px-none, ._xxl\:p-none {}
+	._xxl\:pt-xxs, ._xxl\:py-xxs, ._xxl\:p-xxs {}
+	._xxl\:pr-xxs, ._xxl\:px-xxs, ._xxl\:p-xxs {}
+	._xxl\:pb-xxs, ._xxl\:py-xxs, ._xxl\:p-xxs {}
+	._xxl\:pl-xxs, ._xxl\:px-xxs, ._xxl\:p-xxs {}
+	._xxl\:pt-xs, ._xxl\:py-xs, ._xxl\:p-xs {}
+	._xxl\:pr-xs, ._xxl\:px-xs, ._xxl\:p-xs {}
+	._xxl\:pb-xs, ._xxl\:py-xs, ._xxl\:p-xs {}
+	._xxl\:pl-xs, ._xxl\:px-xs, ._xxl\:p-xs {}
+	._xxl\:pt-sm, ._xxl\:py-sm, ._xxl\:p-sm {}
+	._xxl\:pr-sm, ._xxl\:px-sm, ._xxl\:p-sm {}
+	._xxl\:pb-sm, ._xxl\:py-sm, ._xxl\:p-sm {}
+	._xxl\:pl-sm, ._xxl\:px-sm, ._xxl\:p-sm {}
+	._xxl\:pt-md, ._xxl\:py-md, ._xxl\:p-md {}
+	._xxl\:pr-md, ._xxl\:px-md, ._xxl\:p-md {}
+	._xxl\:pb-md, ._xxl\:py-md, ._xxl\:p-md {}
+	._xxl\:pl-md, ._xxl\:px-md, ._xxl\:p-md {}
+	._xxl\:pt-df, ._xxl\:py-df, ._xxl\:p-df {}
+	._xxl\:pr-df, ._xxl\:px-df, ._xxl\:p-df {}
+	._xxl\:pb-df, ._xxl\:py-df, ._xxl\:p-df {}
+	._xxl\:pl-df, ._xxl\:px-df, ._xxl\:p-df {}
+	._xxl\:pt-lg, ._xxl\:py-lg, ._xxl\:p-lg {}
+	._xxl\:pr-lg, ._xxl\:px-lg, ._xxl\:p-lg {}
+	._xxl\:pb-lg, ._xxl\:py-lg, ._xxl\:p-lg {}
+	._xxl\:pl-lg, ._xxl\:px-lg, ._xxl\:p-lg {}
+	._xxl\:pt-xl, ._xxl\:py-xl, ._xxl\:p-xl {}
+	._xxl\:pr-xl, ._xxl\:px-xl, ._xxl\:p-xl {}
+	._xxl\:pb-xl, ._xxl\:py-xl, ._xxl\:p-xl {}
+	._xxl\:pl-xl, ._xxl\:px-xl, ._xxl\:p-xl {}
+	._xxl\:pt-xxl, ._xxl\:py-xxl, ._xxl\:p-xxl {}
+	._xxl\:pr-xxl, ._xxl\:px-xxl, ._xxl\:p-xxl {}
+	._xxl\:pb-xxl, ._xxl\:py-xxl, ._xxl\:p-xxl {}
+	._xxl\:pl-xxl, ._xxl\:px-xxl, ._xxl\:p-xxl {}
+	._xxl\:pt-hg, ._xxl\:py-hg, ._xxl\:p-hg {}
+	._xxl\:pr-hg, ._xxl\:px-hg, ._xxl\:p-hg {}
+	._xxl\:pb-hg, ._xxl\:py-hg, ._xxl\:p-hg {}
+	._xxl\:pl-hg, ._xxl\:px-hg, ._xxl\:p-hg {}
+	._xxl\:text-left {}
+	._xxl\:text-right {}
+	._xxl\:text-center {}
+	._xxl\:text-justify {}
+}
+
+@media only screen and (min-width: 1980px) {
+	._hd\:grid--1 > * {}
+	._hd\:grid--2 > * {}
+	._hd\:grid--3 > * {}
+	._hd\:grid--4 > * {}
+	._hd\:grid--5 > * {}
+	._hd\:grid--6 > * {}
+	._hd\:grid--7 > * {}
+	._hd\:grid--8 > * {}
+	._hd\:grid--9 > * {}
+	._hd\:grid--10 > * {}
+	._hd\:grid--11 > * {}
+	._hd\:grid--12 > * {}
+	._hd\:grid--auto > * {}
+	._hd\:cell--1 {}
+	._hd\:cell--2 {}
+	._hd\:cell--3 {}
+	._hd\:cell--4 {}
+	._hd\:cell--5 {}
+	._hd\:cell--6 {}
+	._hd\:cell--7 {}
+	._hd\:cell--8 {}
+	._hd\:cell--9 {}
+	._hd\:cell--10 {}
+	._hd\:cell--11 {}
+	._hd\:cell--12 {}
+	._hd\:cell--auto {}
+	._hd\:owl--xxs > * {}
+	._hd\:owl--xs > * {}
+	._hd\:owl--sm > * {}
+	._hd\:owl--md > * {}
+	._hd\:owl--df > * {}
+	._hd\:owl--lg > * {}
+	._hd\:owl--xl > * {}
+	._hd\:owl--xxl > * {}
+	._hd\:owl--hg > * {}
+	._hd\:spacer--xxs {}
+	._hd\:spacer--xs {}
+	._hd\:spacer--sm {}
+	._hd\:spacer--md {}
+	._hd\:spacer--df {}
+	._hd\:spacer--lg {}
+	._hd\:spacer--xl {}
+	._hd\:spacer--xxl {}
+	._hd\:spacer--hg {}
+	._hd\:flex {}
+	._hd\:items-start {}
+	._hd\:items-end {}
+	._hd\:items-center {}
+	._hd\:items-stretch {}
+	._hd\:items-baseline {}
+	._hd\:justify-start {}
+	._hd\:justify-end {}
+	._hd\:justify-center {}
+	._hd\:justify-between {}
+	._hd\:justify-around {}
+	._hd\:self-start {}
+	._hd\:self-end {}
+	._hd\:self-center {}
+	._hd\:self-stretch {}
+	._hd\:flex-wrap {}
+	._hd\:flex-nowrap {}
+	._hd\:flex-column {}
+	._hd\:flex-column-reverse {}
+	._hd\:flex-row {}
+	._hd\:flex-row-reverse {}
+	._hd\:flex-grow {}
+	._hd\:flex-nogrow {}
+	._hd\:flex-shrink {}
+	._hd\:flex-noshrink {}
+	._hd\:mt-none, ._hd\:my-none, ._hd\:m-none {}
+	._hd\:mr-none, ._hd\:mx-none, ._hd\:m-none {}
+	._hd\:mb-none, ._hd\:my-none, ._hd\:m-none {}
+	._hd\:ml-none, ._hd\:mx-none, ._hd\:m-none {}
+	._hd\:mt-auto, ._hd\:my-auto, ._hd\:m-auto {}
+	._hd\:mr-auto, ._hd\:mx-auto, ._hd\:m-auto {}
+	._hd\:mb-auto, ._hd\:my-auto, ._hd\:m-auto {}
+	._hd\:ml-auto, ._hd\:mx-auto, ._hd\:m-auto {}
+	._hd\:mt-xxs, ._hd\:my-xxs, ._hd\:m-xxs {}
+	._hd\:mr-xxs, ._hd\:mx-xxs, ._hd\:m-xxs {}
+	._hd\:mb-xxs, ._hd\:my-xxs, ._hd\:m-xxs {}
+	._hd\:ml-xxs, ._hd\:mx-xxs, ._hd\:m-xxs {}
+	._hd\:nmt-xxs, ._hd\:nmy-xxs, ._hd\:nm-xxs {}
+	._hd\:nmr-xxs, ._hd\:nmx-xxs, ._hd\:nm-xxs {}
+	._hd\:nmb-xxs, ._hd\:nmy-xxs, ._hd\:nm-xxs {}
+	._hd\:nml-xxs, ._hd\:nmx-xxs, ._hd\:nm-xxs {}
+	._hd\:mt-xs, ._hd\:my-xs, ._hd\:m-xs {}
+	._hd\:mr-xs, ._hd\:mx-xs, ._hd\:m-xs {}
+	._hd\:mb-xs, ._hd\:my-xs, ._hd\:m-xs {}
+	._hd\:ml-xs, ._hd\:mx-xs, ._hd\:m-xs {}
+	._hd\:nmt-xs, ._hd\:nmy-xs, ._hd\:nm-xs {}
+	._hd\:nmr-xs, ._hd\:nmx-xs, ._hd\:nm-xs {}
+	._hd\:nmb-xs, ._hd\:nmy-xs, ._hd\:nm-xs {}
+	._hd\:nml-xs, ._hd\:nmx-xs, ._hd\:nm-xs {}
+	._hd\:mt-sm, ._hd\:my-sm, ._hd\:m-sm {}
+	._hd\:mr-sm, ._hd\:mx-sm, ._hd\:m-sm {}
+	._hd\:mb-sm, ._hd\:my-sm, ._hd\:m-sm {}
+	._hd\:ml-sm, ._hd\:mx-sm, ._hd\:m-sm {}
+	._hd\:nmt-sm, ._hd\:nmy-sm, ._hd\:nm-sm {}
+	._hd\:nmr-sm, ._hd\:nmx-sm, ._hd\:nm-sm {}
+	._hd\:nmb-sm, ._hd\:nmy-sm, ._hd\:nm-sm {}
+	._hd\:nml-sm, ._hd\:nmx-sm, ._hd\:nm-sm {}
+	._hd\:mt-md, ._hd\:my-md, ._hd\:m-md {}
+	._hd\:mr-md, ._hd\:mx-md, ._hd\:m-md {}
+	._hd\:mb-md, ._hd\:my-md, ._hd\:m-md {}
+	._hd\:ml-md, ._hd\:mx-md, ._hd\:m-md {}
+	._hd\:nmt-md, ._hd\:nmy-md, ._hd\:nm-md {}
+	._hd\:nmr-md, ._hd\:nmx-md, ._hd\:nm-md {}
+	._hd\:nmb-md, ._hd\:nmy-md, ._hd\:nm-md {}
+	._hd\:nml-md, ._hd\:nmx-md, ._hd\:nm-md {}
+	._hd\:mt-df, ._hd\:my-df, ._hd\:m-df {}
+	._hd\:mr-df, ._hd\:mx-df, ._hd\:m-df {}
+	._hd\:mb-df, ._hd\:my-df, ._hd\:m-df {}
+	._hd\:ml-df, ._hd\:mx-df, ._hd\:m-df {}
+	._hd\:nmt-df, ._hd\:nmy-df, ._hd\:nm-df {}
+	._hd\:nmr-df, ._hd\:nmx-df, ._hd\:nm-df {}
+	._hd\:nmb-df, ._hd\:nmy-df, ._hd\:nm-df {}
+	._hd\:nml-df, ._hd\:nmx-df, ._hd\:nm-df {}
+	._hd\:mt-lg, ._hd\:my-lg, ._hd\:m-lg {}
+	._hd\:mr-lg, ._hd\:mx-lg, ._hd\:m-lg {}
+	._hd\:mb-lg, ._hd\:my-lg, ._hd\:m-lg {}
+	._hd\:ml-lg, ._hd\:mx-lg, ._hd\:m-lg {}
+	._hd\:nmt-lg, ._hd\:nmy-lg, ._hd\:nm-lg {}
+	._hd\:nmr-lg, ._hd\:nmx-lg, ._hd\:nm-lg {}
+	._hd\:nmb-lg, ._hd\:nmy-lg, ._hd\:nm-lg {}
+	._hd\:nml-lg, ._hd\:nmx-lg, ._hd\:nm-lg {}
+	._hd\:mt-xl, ._hd\:my-xl, ._hd\:m-xl {}
+	._hd\:mr-xl, ._hd\:mx-xl, ._hd\:m-xl {}
+	._hd\:mb-xl, ._hd\:my-xl, ._hd\:m-xl {}
+	._hd\:ml-xl, ._hd\:mx-xl, ._hd\:m-xl {}
+	._hd\:nmt-xl, ._hd\:nmy-xl, ._hd\:nm-xl {}
+	._hd\:nmr-xl, ._hd\:nmx-xl, ._hd\:nm-xl {}
+	._hd\:nmb-xl, ._hd\:nmy-xl, ._hd\:nm-xl {}
+	._hd\:nml-xl, ._hd\:nmx-xl, ._hd\:nm-xl {}
+	._hd\:mt-xxl, ._hd\:my-xxl, ._hd\:m-xxl {}
+	._hd\:mr-xxl, ._hd\:mx-xxl, ._hd\:m-xxl {}
+	._hd\:mb-xxl, ._hd\:my-xxl, ._hd\:m-xxl {}
+	._hd\:ml-xxl, ._hd\:mx-xxl, ._hd\:m-xxl {}
+	._hd\:nmt-xxl, ._hd\:nmy-xxl, ._hd\:nm-xxl {}
+	._hd\:nmr-xxl, ._hd\:nmx-xxl, ._hd\:nm-xxl {}
+	._hd\:nmb-xxl, ._hd\:nmy-xxl, ._hd\:nm-xxl {}
+	._hd\:nml-xxl, ._hd\:nmx-xxl, ._hd\:nm-xxl {}
+	._hd\:mt-hg, ._hd\:my-hg, ._hd\:m-hg {}
+	._hd\:mr-hg, ._hd\:mx-hg, ._hd\:m-hg {}
+	._hd\:mb-hg, ._hd\:my-hg, ._hd\:m-hg {}
+	._hd\:ml-hg, ._hd\:mx-hg, ._hd\:m-hg {}
+	._hd\:nmt-hg, ._hd\:nmy-hg, ._hd\:nm-hg {}
+	._hd\:nmr-hg, ._hd\:nmx-hg, ._hd\:nm-hg {}
+	._hd\:nmb-hg, ._hd\:nmy-hg, ._hd\:nm-hg {}
+	._hd\:nml-hg, ._hd\:nmx-hg, ._hd\:nm-hg {}
+	._hd\:pt-none, ._hd\:py-none, ._hd\:p-none {}
+	._hd\:pr-none, ._hd\:px-none, ._hd\:p-none {}
+	._hd\:pb-none, ._hd\:py-none, ._hd\:p-none {}
+	._hd\:pl-none, ._hd\:px-none, ._hd\:p-none {}
+	._hd\:pt-xxs, ._hd\:py-xxs, ._hd\:p-xxs {}
+	._hd\:pr-xxs, ._hd\:px-xxs, ._hd\:p-xxs {}
+	._hd\:pb-xxs, ._hd\:py-xxs, ._hd\:p-xxs {}
+	._hd\:pl-xxs, ._hd\:px-xxs, ._hd\:p-xxs {}
+	._hd\:pt-xs, ._hd\:py-xs, ._hd\:p-xs {}
+	._hd\:pr-xs, ._hd\:px-xs, ._hd\:p-xs {}
+	._hd\:pb-xs, ._hd\:py-xs, ._hd\:p-xs {}
+	._hd\:pl-xs, ._hd\:px-xs, ._hd\:p-xs {}
+	._hd\:pt-sm, ._hd\:py-sm, ._hd\:p-sm {}
+	._hd\:pr-sm, ._hd\:px-sm, ._hd\:p-sm {}
+	._hd\:pb-sm, ._hd\:py-sm, ._hd\:p-sm {}
+	._hd\:pl-sm, ._hd\:px-sm, ._hd\:p-sm {}
+	._hd\:pt-md, ._hd\:py-md, ._hd\:p-md {}
+	._hd\:pr-md, ._hd\:px-md, ._hd\:p-md {}
+	._hd\:pb-md, ._hd\:py-md, ._hd\:p-md {}
+	._hd\:pl-md, ._hd\:px-md, ._hd\:p-md {}
+	._hd\:pt-df, ._hd\:py-df, ._hd\:p-df {}
+	._hd\:pr-df, ._hd\:px-df, ._hd\:p-df {}
+	._hd\:pb-df, ._hd\:py-df, ._hd\:p-df {}
+	._hd\:pl-df, ._hd\:px-df, ._hd\:p-df {}
+	._hd\:pt-lg, ._hd\:py-lg, ._hd\:p-lg {}
+	._hd\:pr-lg, ._hd\:px-lg, ._hd\:p-lg {}
+	._hd\:pb-lg, ._hd\:py-lg, ._hd\:p-lg {}
+	._hd\:pl-lg, ._hd\:px-lg, ._hd\:p-lg {}
+	._hd\:pt-xl, ._hd\:py-xl, ._hd\:p-xl {}
+	._hd\:pr-xl, ._hd\:px-xl, ._hd\:p-xl {}
+	._hd\:pb-xl, ._hd\:py-xl, ._hd\:p-xl {}
+	._hd\:pl-xl, ._hd\:px-xl, ._hd\:p-xl {}
+	._hd\:pt-xxl, ._hd\:py-xxl, ._hd\:p-xxl {}
+	._hd\:pr-xxl, ._hd\:px-xxl, ._hd\:p-xxl {}
+	._hd\:pb-xxl, ._hd\:py-xxl, ._hd\:p-xxl {}
+	._hd\:pl-xxl, ._hd\:px-xxl, ._hd\:p-xxl {}
+	._hd\:pt-hg, ._hd\:py-hg, ._hd\:p-hg {}
+	._hd\:pr-hg, ._hd\:px-hg, ._hd\:p-hg {}
+	._hd\:pb-hg, ._hd\:py-hg, ._hd\:p-hg {}
+	._hd\:pl-hg, ._hd\:px-hg, ._hd\:p-hg {}
+	._hd\:text-left {}
+	._hd\:text-right {}
+	._hd\:text-center {}
+	._hd\:text-justify {}
+}

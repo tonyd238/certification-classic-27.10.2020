@@ -1,3 +1,11 @@
-div {
-	position: relative;
-}
+@import "~microbe-ui/src/core";
+@import "~microbe-ui/src/components/module-grid";
+@import "~microbe-ui/src/components/spacer";
+@import "~microbe-ui/src/components/owl";
+@import "~microbe-ui/src/helpers/gutters";
+
+@import 'core/elements';
+@import 'components/container';
+@import 'components/filter-label';
+@import 'components/filter-set';
+@import 'components/header';

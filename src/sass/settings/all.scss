@@ -1,0 +1,26 @@
+@import '~microbe-ui/src/core';
+@import '~microbe-ui/src/core/mixins/absolute-center';
+@import '~microbe-ui/src/core/mixins/absolute-gap';
+@import '~microbe-ui/src/core/mixins/absolute-square';
+
+// -----------------------------------------------------------------------------
+// Colors
+// -----------------------------------------------------------------------------
+
+$color-primary-main: #3f51b5;
+$color-primary-dark: #2c387e;
+$color-primary-light: #6573c3;
+$color-primary-contrasText: #fff;
+
+$color-text-main: #323;
+$color-text-dark: #201;
+$color-text-light: #545;
+$color-text-contrasText: #fff;
+
+$background-default: #dde;
+$background-surface: #fff;
+$background-hover: #eee;
+
+$border-default: #999;
+
+$shadow-default-color: #201;
