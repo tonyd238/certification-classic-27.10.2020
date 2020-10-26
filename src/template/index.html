@@ -14,39 +14,73 @@
     </div>
     <div class="container">
         <div class="_grid _spacer _spacer--df">
-            <div class="_cell _cell--12 _md:cell--5 _lg:cell--4">
+            <div class="_cell _cell--12 _md:cell--5 _lg:cell--3">
                 <h2>Категории</h2>
-                <form class="_owl _owl--lg">
+                <form class="_owl _owl--df">
                     <div class="filter-set">
                         <div class="filter-set__name">Бренд</div>
-                        <div class="_owl _owl--df">
+                        <div class="filter-set__controls">
                             <label class="filter-label">
-                                <input type="checkbox">
-                                <span>XXX</span>
+                                <input type="checkbox" name="brand" value="1">
+                                <span>Lorem ipsum</span>
+                            </label>
+                            <label class="filter-label">
+                                <input type="checkbox" name="brand" value="2">
+                                <span>Ad aliquam animi</span>
+                            </label>
+                            <label class="filter-label">
+                                <input type="checkbox" name="brand" value="3">
+                                <span>explicabo facilis</span>
                             </label>
                         </div>
                     </div>
                     <div class="filter-set">
-                        <div class="filter-set__name">Бренд</div>
-                        <div class="_owl _owl--df">
-                            <label class="filter-label">
-                                <input type="checkbox">
-                                <span>XXX</span>
-                            </label>
+                        <div class="filter-set__name">Mарка</div>
+                        <div class="filter-set__controls">
+                            <select name="marka" class="select">
+                                <option>Обрати</option>
+                                <option value="1">Accusamus ad consectetur</option>
+                                <option value="2">Aliquid consequatur</option>
+                                <option value="3">Aliquid architecto</option>
+                                <option value="4">Cumque eius id modi</option>
+                                <option value="5">At corporis eaque fugit</option>
+                            </select>
                         </div>
                     </div>
                     <div class="filter-set">
-                        <div class="filter-set__name">Бренд</div>
-                        <div class="_owl _owl--df">
-                            <label class="filter-label">
-                                <input type="checkbox">
-                                <span>XXX</span>
-                            </label>
+                        <div class="filter-set__name">Модель</div>
+                        <div class="filter-set__controls">
+                            <select name="filter-model" class="select">
+                                <option>Обрати</option>
+                                <option value="1">Lorem ipsum dolor</option>
+                                <option value="2">Neque, officia</option>
+                                <option value="3">Amet asperiores</option>
+                                <option value="4">Ab accusantium amet</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="filter-set">
+                        <div class="filter-set__name">Цена</div>
+                        <div class="filter-set__controls">
+                            <div class="_grid _grid--2 _spacer _spacer--md">
+                                <div class="_cell">
+                                    <small>От</small>
+                                    <input name="price-from" type="number"
+                                           class="input _mt-xs"
+                                           value="1000">
+                                </div>
+                                <div class="_cell">
+                                    <small>До</small>
+                                    <input name="price-to" type="number"
+                                           class="input _mt-xs"
+                                           value="600000">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </form>
             </div>
-            <div class="_cell _cell--12 _md:cell--7 _lg:cell--8">
+            <div class="_cell _cell--12 _md:cell--7 _lg:cell--3">
 
             </div>
         </div>

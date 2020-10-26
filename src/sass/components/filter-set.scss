@@ -6,4 +6,10 @@
 	padding: microbe-em(20, 14);
 	background: $background-surface;
 	border-radius: 0.25em;
+
+	&__name {
+		font-size: microbe-rem(16);
+		font-style: italic;
+		margin-bottom: microbe-em(8, 16);
+	}
 }
