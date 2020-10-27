@@ -9,19 +9,19 @@ const fromCWD = require('from-cwd');
 // -----------------------------------------------------------------------------
 
 module.exports = {
-    src: {
-        js: fromCWD('src/js'),
-        sass: fromCWD('src/sass'),
-        tpl: fromCWD('src/template')
-    },
-    build: {
-        content: fromCWD('/public'),
-        publicPath: '/'
-    },
-    modules: [
-        fromCWD('./node_modules/'),
-        fromCWD('./src/'),
-        fromCWD('./src/js/'),
-        fromCWD('./src/sass/')
-    ]
-}
+	src: {
+		js: fromCWD('src/js'),
+		sass: fromCWD('src/sass'),
+		tpl: fromCWD('src/template')
+	},
+	build: {
+		content: fromCWD('/public'),
+		publicPath: '/'
+	},
+	modules: [
+		fromCWD('./node_modules/'),
+		fromCWD('./src/'),
+		fromCWD('./src/js/'),
+		fromCWD('./src/sass/')
+	]
+};

@@ -17,7 +17,7 @@ module.exports = merge(baseConfig, {
 	devServer: {
 		historyApiFallback: true,
 		contentBase: paths.build.content,
-        watchContentBase: true,
+		watchContentBase: true,
 		open: true,
 		compress: true,
 		hot: true,

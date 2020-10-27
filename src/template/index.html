@@ -1,264 +1,326 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,viewport-fit=cover">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-</head>
-<body>
-    <div class="header">
-        <div class="container">
-            <%= htmlWebpackPlugin.options.title %>
-        </div>
-    </div>
-    <div class="container">
-        <div class="_grid _spacer _spacer--xl">
-            <div class="_cell _cell--12 _md:cell--5 _lg:cell--3">
-                <h2>Категории</h2>
-                <form id="filter" class="_owl _owl--df _pt-df">
-                    <div class="filter-set">
-                        <div class="filter-set__name">Бренд</div>
-                        <div class="filter-set__controls">
-                            <label class="filter-label">
-                                <input type="checkbox" name="brand" value="1">
-                                <span>ELIGOR</span>
-                            </label>
-                            <label class="filter-label">
-                                <input type="checkbox" name="brand" value="2">
-                                <span>MSMODELS</span>
-                            </label>
-                            <label class="filter-label">
-                                <input type="checkbox" name="brand" value="3">
-                                <span>SCHUCO</span>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="filter-set">
-                        <div class="filter-set__name">Производитель</div>
-                        <div class="filter-set__controls">
-                            <select name="marka" class="select">
-                                <option>Выбрать</option>
-                                <option value="1">Наш автопром</option>
-                                <option value="2">V43</option>
-                                <option value="3">SSM</option>
-                                <option value="4">MATRIX</option>
-                                <option value="5">NOREV</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="filter-set">
-                        <div class="filter-set__name">Модель</div>
-                        <div class="filter-set__controls">
-                            <select name="filter-model" class="select">
-                                <option>Выбрать</option>
-                                <option value="1">ГАЗ</option>
-                                <option value="2">ЗиЛ</option>
-                                <option value="3">BMW</option>
-                                <option value="4">Mercedes</option>
-                                <option value="4">Daimler</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="filter-set">
-                        <div class="filter-set__name">Цена</div>
-                        <div class="filter-set__controls">
-                            <div class="_grid _grid--2 _spacer _spacer--md">
-                                <div class="_cell">
-                                    <div class="_owl _owl--xs">
-                                        <small>От</small>
-                                        <input name="price-from" type="number"
-                                               class="input _mt-xs"
-                                               value="1000">
-                                    </div>
-                                </div>
-                                <div class="_cell">
-                                    <div class="_owl _owl--xs">
-                                        <small>До</small>
-                                        <input name="price-to" type="number"
-                                               class="input _mt-xs"
-                                               value="600000">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="_cell _cell--12 _md:cell--7 _lg:cell--9">
-                <div class="_owl _owl--df">
-                    <div class="_grid _grid--auto _spacer _spacer--md _justify-end">
-                    <div class="_cell">
-                        <div class="_owl _owl--xs">
-                            <small>Сортировать:</small>
-                            <select name="sort" class="select" form="filter">
-                                <option value="1">От дешевых к дорогим</option>
-                                <option value="2">От дорогих к дешевым</option>
-                                <option value="3">По названию</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="_cell">
-                        <div class="_owl _owl--xs">
-                            <small>Кол-во элементов на страницу:</small>
-                            <select name="per_page" class="select" form="filter">
-                                <option value="1">6</option>
-                                <option value="2">12</option>
-                                <option value="2">24</option>
-                                <option value="2">60</option>
-                            </select>
-                        </div>
-                    </div>
-                </div>
-                <div class="_grid _spacer _spacer--xl">
-	                <div class="_cell _cell--6 _md:cell--4">
-		                <div class="card">
-			                <div class="card__top">
-				                <div class="card__brand">ELIGOR</div>
-				                <img src="images/model1.jpg" alt="ГАЗ-61 (4х4) (1939) H365" class="card__image">
-			                </div>
-			                <div class="card__bottom">
-				                <div class="_grid _justify-between _flex-nowrap _mb-sm">
-					                <div class="_gcell">
-						                <div class="card__manufacturer">Наш автопром</div>
-					                </div>
-					                <div class="_gcell">
-						                <div class="card__year">2000 год</div>
-					                </div>
-				                </div>
-								<div class="card__model _mb-sm">ГАЗ-61 (4х4) (1939) H365</div>
-				                <div class="_grid _justify-center">
-					                <div class="_gcell">
-										<div class="card__price">$200</div>
-					                </div>
-				                </div>
-			                </div>
-		                </div>
-	                </div>
-	                <div class="_cell _cell--6 _md:cell--4">
-		                <div class="card">
-			                <div class="card__top">
-				                <div class="card__brand">MSMODELS</div>
-				                <img src="images/model2.jpg" alt="ГАЗ-21И «Волга»" class="card__image">
-			                </div>
-			                <div class="card__bottom">
-				                <div class="_grid _justify-between _flex-nowrap _mb-sm">
-					                <div class="_gcell">
-						                <div class="card__manufacturer">V43</div>
-					                </div>
-					                <div class="_gcell">
-						                <div class="card__year">1983 год</div>
-					                </div>
-				                </div>
-				                <div class="card__model _mb-sm">ГАЗ-21И «Волга»</div>
-				                <div class="_grid _justify-center">
-					                <div class="_gcell">
-						                <div class="card__price">$1 000</div>
-					                </div>
-				                </div>
-			                </div>
-		                </div>
-	                </div>
-	                <div class="_cell _cell--6 _md:cell--4">
-		                <div class="card">
-			                <div class="card__top">
-				                <div class="card__brand">ELIGOR</div>
-				                <img src="images/model3.jpg" alt="ЗиЛ-138 газобалонный" class="card__image">
-			                </div>
-			                <div class="card__bottom">
-				                <div class="_grid _justify-between _flex-nowrap _mb-sm">
-					                <div class="_gcell">
-						                <div class="card__manufacturer">SSM</div>
-					                </div>
-					                <div class="_gcell">
-						                <div class="card__year">2003 год</div>
-					                </div>
-				                </div>
-				                <div class="card__model _mb-sm">ЗиЛ-138 газобалонный</div>
-				                <div class="_grid _justify-center">
-					                <div class="_gcell">
-						                <div class="card__price">$850</div>
-					                </div>
-				                </div>
-			                </div>
-		                </div>
-	                </div>
-	                <div class="_cell _cell--6 _md:cell--4">
-		                <div class="card">
-			                <div class="card__top">
-				                <div class="card__brand">MSMODELS</div>
-				                <img src="images/model4.jpg" alt="Daimler DB18 Empress by Hooper" class="card__image">
-			                </div>
-			                <div class="card__bottom">
-				                <div class="_grid _justify-between _flex-nowrap _mb-sm">
-					                <div class="_gcell">
-						                <div class="card__manufacturer">MATRIX</div>
-					                </div>
-					                <div class="_gcell">
-						                <div class="card__year">1995 год</div>
-					                </div>
-				                </div>
-				                <div class="card__model _mb-sm">Daimler DB18 Empress by Hooper</div>
-				                <div class="_grid _justify-center">
-					                <div class="_gcell">
-						                <div class="card__price">$1 280</div>
-					                </div>
-				                </div>
-			                </div>
-		                </div>
-	                </div>
-	                <div class="_cell _cell--6 _md:cell--4">
-		                <div class="card">
-			                <div class="card__top">
-				                <div class="card__brand">SCHUCO</div>
-				                <img src="images/model5.jpg" alt="BMW 503" class="card__image">
-			                </div>
-			                <div class="card__bottom">
-				                <div class="_grid _justify-between _flex-nowrap _mb-sm">
-					                <div class="_gcell">
-						                <div class="card__manufacturer">MATRIX</div>
-					                </div>
-					                <div class="_gcell">
-						                <div class="card__year">1982 год</div>
-					                </div>
-				                </div>
-				                <div class="card__model _mb-sm">BMW 503</div>
-				                <div class="_grid _justify-center">
-					                <div class="_gcell">
-						                <div class="card__price">$990</div>
-					                </div>
-				                </div>
-			                </div>
-		                </div>
-	                </div>
-	                <div class="_cell _cell--6 _md:cell--4">
-		                <div class="card">
-			                <div class="card__top">
-				                <div class="card__brand">ELIGOR</div>
-				                <img src="images/model6.jpg" alt="Mercedes-Benz E-Class 200TE Station Wagon T-Model" class="card__image">
-			                </div>
-			                <div class="card__bottom">
-				                <div class="_grid _justify-between _flex-nowrap _mb-sm">
-					                <div class="_gcell">
-						                <div class="card__manufacturer">NOREV</div>
-					                </div>
-					                <div class="_gcell">
-						                <div class="card__year">1973 год</div>
-					                </div>
-				                </div>
-				                <div class="card__model _mb-sm">Mercedes-Benz E-Class 200TE Station Wagon T-Model</div>
-				                <div class="_grid _justify-center">
-					                <div class="_gcell">
-						                <div class="card__price">$2 155</div>
-					                </div>
-				                </div>
-			                </div>
-		                </div>
-	                </div>
-                </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width,minimum-scale=1,initial-scale=1,viewport-fit=cover"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title><%= htmlWebpackPlugin.options.title %></title>
+	</head>
+	<body>
+		<div class="header">
+			<div class="container"><%= htmlWebpackPlugin.options.title %></div>
+		</div>
+		<div class="container">
+			<div class="_grid _spacer _spacer--xl">
+				<div class="_cell _cell--12 _md:cell--5 _lg:cell--3">
+					<h2>Категории</h2>
+					<form id="filter" class="_owl _owl--df _pt-df">
+						<div class="filter-set">
+							<div class="filter-set__name">Бренд</div>
+							<div class="filter-set__controls">
+								<label class="filter-label">
+									<input type="checkbox" name="brand" value="1" />
+									<span>ELIGOR</span>
+								</label>
+								<label class="filter-label">
+									<input type="checkbox" name="brand" value="2" />
+									<span>MSMODELS</span>
+								</label>
+								<label class="filter-label">
+									<input type="checkbox" name="brand" value="3" />
+									<span>SCHUCO</span>
+								</label>
+							</div>
+						</div>
+						<div class="filter-set">
+							<div class="filter-set__name">Производитель</div>
+							<div class="filter-set__controls">
+								<select name="marka" class="select">
+									<option>Выбрать</option>
+									<option value="1">Наш автопром</option>
+									<option value="2">V43</option>
+									<option value="3">SSM</option>
+									<option value="4">MATRIX</option>
+									<option value="5">NOREV</option>
+								</select>
+							</div>
+						</div>
+						<div class="filter-set">
+							<div class="filter-set__name">Модель</div>
+							<div class="filter-set__controls">
+								<select name="filter-model" class="select">
+									<option>Выбрать</option>
+									<option value="1">ГАЗ</option>
+									<option value="2">ЗиЛ</option>
+									<option value="3">BMW</option>
+									<option value="4">Mercedes</option>
+									<option value="4">Daimler</option>
+								</select>
+							</div>
+						</div>
+						<div class="filter-set">
+							<div class="filter-set__name">Цена</div>
+							<div class="filter-set__controls">
+								<div class="_grid _grid--2 _spacer _spacer--md">
+									<div class="_cell">
+										<div class="_owl _owl--xs">
+											<small>От</small>
+											<input
+												name="price-from"
+												type="number"
+												class="input _mt-xs"
+												value="1000"
+											/>
+										</div>
+									</div>
+									<div class="_cell">
+										<div class="_owl _owl--xs">
+											<small>До</small>
+											<input
+												name="price-to"
+												type="number"
+												class="input _mt-xs"
+												value="600000"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</form>
+				</div>
+				<div class="_cell _cell--12 _md:cell--7 _lg:cell--9">
+					<div class="_owl _owl--df">
+						<div class="_grid _grid--auto _spacer _spacer--md _justify-end">
+							<div class="_cell">
+								<div class="_owl _owl--xs">
+									<small>Сортировать:</small>
+									<select name="sort" class="select" form="filter">
+										<option value="1">От дешевых к дорогим</option>
+										<option value="2">От дорогих к дешевым</option>
+										<option value="3">По названию</option>
+									</select>
+								</div>
+							</div>
+							<div class="_cell">
+								<div class="_owl _owl--xs">
+									<small>Кол-во элементов на страницу:</small>
+									<select name="per_page" class="select" form="filter">
+										<option value="1">6</option>
+										<option value="2">12</option>
+										<option value="2">24</option>
+										<option value="2">60</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="_grid _spacer _spacer--xl">
+							<div class="_cell _cell--6 _md:cell--4">
+								<div class="card">
+									<div class="card__top">
+										<div class="card__brand">ELIGOR</div>
+										<img
+											src="images/model1.jpg"
+											alt="ГАЗ-61 (4х4) (1939) H365"
+											class="card__image"
+										/>
+									</div>
+									<div class="card__bottom">
+										<div
+											class="_grid _justify-between _flex-nowrap _mb-sm"
+										>
+											<div class="_gcell">
+												<div class="card__manufacturer">
+													Наш автопром
+												</div>
+											</div>
+											<div class="_gcell">
+												<div class="card__year">2000 год</div>
+											</div>
+										</div>
+										<div class="card__model _mb-sm">
+											ГАЗ-61 (4х4) (1939) H365
+										</div>
+										<div class="_grid _justify-center">
+											<div class="_gcell">
+												<div class="card__price">$200</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="_cell _cell--6 _md:cell--4">
+								<div class="card">
+									<div class="card__top">
+										<div class="card__brand">MSMODELS</div>
+										<img
+											src="images/model2.jpg"
+											alt="ГАЗ-21И «Волга»"
+											class="card__image"
+										/>
+									</div>
+									<div class="card__bottom">
+										<div
+											class="_grid _justify-between _flex-nowrap _mb-sm"
+										>
+											<div class="_gcell">
+												<div class="card__manufacturer">V43</div>
+											</div>
+											<div class="_gcell">
+												<div class="card__year">1983 год</div>
+											</div>
+										</div>
+										<div class="card__model _mb-sm">
+											ГАЗ-21И «Волга»
+										</div>
+										<div class="_grid _justify-center">
+											<div class="_gcell">
+												<div class="card__price">$1 000</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="_cell _cell--6 _md:cell--4">
+								<div class="card">
+									<div class="card__top">
+										<div class="card__brand">ELIGOR</div>
+										<img
+											src="images/model3.jpg"
+											alt="ЗиЛ-138 газобалонный"
+											class="card__image"
+										/>
+									</div>
+									<div class="card__bottom">
+										<div
+											class="_grid _justify-between _flex-nowrap _mb-sm"
+										>
+											<div class="_gcell">
+												<div class="card__manufacturer">SSM</div>
+											</div>
+											<div class="_gcell">
+												<div class="card__year">2003 год</div>
+											</div>
+										</div>
+										<div class="card__model _mb-sm">
+											ЗиЛ-138 газобалонный
+										</div>
+										<div class="_grid _justify-center">
+											<div class="_gcell">
+												<div class="card__price">$850</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="_cell _cell--6 _md:cell--4">
+								<div class="card">
+									<div class="card__top">
+										<div class="card__brand">MSMODELS</div>
+										<img
+											src="images/model4.jpg"
+											alt="Daimler DB18 Empress by Hooper"
+											class="card__image"
+										/>
+									</div>
+									<div class="card__bottom">
+										<div
+											class="_grid _justify-between _flex-nowrap _mb-sm"
+										>
+											<div class="_gcell">
+												<div class="card__manufacturer">
+													MATRIX
+												</div>
+											</div>
+											<div class="_gcell">
+												<div class="card__year">1995 год</div>
+											</div>
+										</div>
+										<div class="card__model _mb-sm">
+											Daimler DB18 Empress by Hooper
+										</div>
+										<div class="_grid _justify-center">
+											<div class="_gcell">
+												<div class="card__price">$1 280</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="_cell _cell--6 _md:cell--4">
+								<div class="card">
+									<div class="card__top">
+										<div class="card__brand">SCHUCO</div>
+										<img
+											src="images/model5.jpg"
+											alt="BMW 503"
+											class="card__image"
+										/>
+									</div>
+									<div class="card__bottom">
+										<div
+											class="_grid _justify-between _flex-nowrap _mb-sm"
+										>
+											<div class="_gcell">
+												<div class="card__manufacturer">
+													MATRIX
+												</div>
+											</div>
+											<div class="_gcell">
+												<div class="card__year">1982 год</div>
+											</div>
+										</div>
+										<div class="card__model _mb-sm">BMW 503</div>
+										<div class="_grid _justify-center">
+											<div class="_gcell">
+												<div class="card__price">$990</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="_cell _cell--6 _md:cell--4">
+								<div class="card">
+									<div class="card__top">
+										<div class="card__brand">ELIGOR</div>
+										<img
+											src="images/model6.jpg"
+											alt="Mercedes-Benz E-Class 200TE Station Wagon T-Model"
+											class="card__image"
+										/>
+									</div>
+									<div class="card__bottom">
+										<div
+											class="_grid _justify-between _flex-nowrap _mb-sm"
+										>
+											<div class="_gcell">
+												<div class="card__manufacturer">
+													NOREV
+												</div>
+											</div>
+											<div class="_gcell">
+												<div class="card__year">1973 год</div>
+											</div>
+										</div>
+										<div class="card__model _mb-sm">
+											Mercedes-Benz E-Class 200TE Station Wagon
+											T-Model
+										</div>
+										<div class="_grid _justify-center">
+											<div class="_gcell">
+												<div class="card__price">$2 155</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
 </html>

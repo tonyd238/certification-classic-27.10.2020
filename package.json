@@ -48,7 +48,7 @@
   },
   "devDependencies": {
     "@stripped-ui/eslint-config": "0.0.6-beta.0",
-    "@stripped-ui/stylelint-config-scss": "0.0.6-beta.0",
+    "@stripped-ui/stylelint-config-scss": "0.0.9-beta.0",
     "babel-eslint": "^10.1.0",
     "eslint": "^7.11.0",
     "prettier": "^2.1.2",

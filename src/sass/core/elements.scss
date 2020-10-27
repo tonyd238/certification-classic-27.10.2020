@@ -13,10 +13,9 @@ body {
 	-webkit-text-size-adjust: 100%;
 }
 
+/* stylelint-disable-next-line selector-max-universal */
 *,
 ::before,
 ::after {
 	box-sizing: inherit;
 }
-
-
