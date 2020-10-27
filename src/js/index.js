@@ -2,11 +2,17 @@
 // Deps
 // -----------------------------------------------------------------------------
 
+// global
+import jQuery from 'js#/lib/jquery';
+// styles
 import 'sass#/style.scss';
+// scripts
+import { demo } from 'js#/modules/demo-module';
 
 // -----------------------------------------------------------------------------
 // Initialize
 // -----------------------------------------------------------------------------
 
-console.log(0);
-
+jQuery(function ($) {
+	demo();
+});
