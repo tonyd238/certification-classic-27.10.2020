@@ -1,0 +1,86 @@
+@import 'settings/all';
+
+.card {
+	background-color: $background-surface;
+	border: 1px solid $border-default;
+	border-radius: 8px;
+
+	&__top {
+		padding-top: 80%;
+		overflow: hidden;
+		position: relative;
+	}
+
+	&__bottom {
+		padding: microbe-rem(16) microbe-rem(20) microbe-rem(10);
+		box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+	}
+
+	&__image {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+
+	&__brand {
+		position: absolute;
+		top: microbe-rem(10);
+		right: microbe-rem(10);
+		z-index: 2;
+		color: $color-primary-dark;
+		text-transform: uppercase;
+		font-size: microbe-rem(15);
+		font-weight: 700;
+	}
+
+	&__manufacturer {
+		font-size: microbe-rem(12);
+		color: $color-text-light;
+	}
+
+	&__year {
+		font-size: microbe-rem(12);
+		font-weight: 700;
+		color: $color-primary-dark;
+	}
+
+	&__model {
+		font-weight: 700;
+		font-size: microbe-rem(16);
+	}
+
+	&__price {
+		position: relative;
+		padding: microbe-rem(7) microbe-rem(14);
+		font-weight: 700;
+		font-size: microbe-rem(20);
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+		background-color: $background-default;
+
+		&::after,
+		&::before {
+			position: absolute;
+			content: '';
+			top: 50%;
+			width: microbe-rem(10);
+			height: microbe-rem(10);
+			margin-top: microbe-rem(-5);
+			background-color: $background-surface;
+		}
+
+		&::after {
+			left: microbe-rem(-5);
+			box-shadow: inset -1px 0 2px -1px rgba(0, 0, 0, 0.5);
+			border-radius: 0 microbe-rem(10) microbe-rem(10) 0;
+		}
+
+		&::before {
+			right: microbe-rem(-5);
+			box-shadow: inset 1px 0 2px -1px rgba(0, 0, 0, 0.5);
+			border-radius: microbe-rem(10) 0 0 microbe-rem(10);
+		}
+	}
+}
