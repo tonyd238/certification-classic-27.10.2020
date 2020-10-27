@@ -16,7 +16,8 @@ module.exports = merge(baseConfig, {
 	devtool: 'inline-source-map',
 	devServer: {
 		historyApiFallback: true,
-		contentBase: paths.build.root,
+		contentBase: paths.build.content,
+        watchContentBase: true,
 		open: true,
 		compress: true,
 		hot: true,

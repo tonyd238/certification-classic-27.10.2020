@@ -4,7 +4,6 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack serve --config config/webpack.development.js",
-    "build": "cross-env NODE_ENV=production webpack --config config/webpack.production.js",
     "----------------------------------------------- TEST": "SECTION",
     "test": "npm run prettier && npm run stylelint && npm run eslint",
     "test:autofix": "npm run prettier:autofix && npm run stylelint:autofix && npm run eslint:autofix",

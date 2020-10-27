@@ -18,9 +18,9 @@ module.exports = {
 		},
 		modules: paths.modules
 	},
-	entry: paths.src.js + '/init.js',
+	entry: paths.src.js + '/index.js',
 	output: {
-		path: paths.build.root,
+		path: paths.build.content,
 		publicPath: paths.build.publicPath,
 		filename: '[name].bundle.js'
 	},
