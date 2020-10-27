@@ -21,7 +21,7 @@ module.exports = merge(baseConfig, {
 	mode: 'production',
 	output: {
 		path: paths.build.dist,
-		publicPath: '/',
+		publicPath: '',
 		filename: 'js/[name].[contenthash].bundle.js'
 	},
 	plugins: [
