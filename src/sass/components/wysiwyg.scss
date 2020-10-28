@@ -1,6 +1,8 @@
 @import 'settings/all';
 
 .wysiwyg {
+	position: relative;
+	z-index: 1;
 	font-size: microbe-rem(13);
 	color: $color-text-light;
 

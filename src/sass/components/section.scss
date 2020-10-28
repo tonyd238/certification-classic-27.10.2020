@@ -6,15 +6,19 @@
 	padding: microbe-rem(30) 0;
 
 	&--white {
+		z-index: 1;
 		background-color: $background-surface;
 	}
 
 	&__decor {
+		pointer-events: none;
+		user-select: none;
 		position: absolute;
 		width: microbe-rem(280);
 		height: microbe-rem(160);
 		top: microbe-rem(-70);
 		left: 50%;
+		z-index: 0;
 		margin-left: microbe-rem(-140);
 	}
 }
