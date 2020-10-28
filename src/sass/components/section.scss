@@ -1,0 +1,20 @@
+@import 'settings/all';
+
+.section {
+	position: relative;
+	z-index: 2;
+	padding: microbe-rem(30) 0;
+
+	&--white {
+		background-color: $background-surface;
+	}
+
+	&__decor {
+		position: absolute;
+		width: microbe-rem(280);
+		height: microbe-rem(160);
+		top: microbe-rem(-70);
+		left: 50%;
+		margin-left: microbe-rem(-140);
+	}
+}

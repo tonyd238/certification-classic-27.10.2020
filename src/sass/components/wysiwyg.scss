@@ -1,0 +1,10 @@
+@import 'settings/all';
+
+.wysiwyg {
+	font-size: microbe-rem(13);
+	color: $color-text-light;
+
+	h1 {
+		font-size: microbe-rem(20);
+	}
+}
