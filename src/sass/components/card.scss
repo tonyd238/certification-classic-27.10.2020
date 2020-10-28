@@ -5,6 +5,10 @@
 	border: 1px solid $border-default;
 	border-radius: 8px;
 
+	&:hover {
+		box-shadow: 0 0 microbe-rem(80) black;
+	}
+
 	&__top {
 		padding-top: 80%;
 		overflow: hidden;
