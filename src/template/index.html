@@ -36,9 +36,11 @@
 							</div>
 						</div>
 						<div class="filter-set">
-							<div class="filter-set__name">Производитель</div>
+							<div class="filter-set__name">
+                                <label for="marka">Производитель</label>
+                            </div>
 							<div class="filter-set__controls">
-								<select name="marka" class="select">
+								<select id="marka" name="marka" class="select">
 									<option>Выбрать</option>
 									<option value="1">Наш автопром</option>
 									<option value="2">V43</option>
@@ -49,9 +51,15 @@
 							</div>
 						</div>
 						<div class="filter-set">
-							<div class="filter-set__name">Модель</div>
+							<div class="filter-set__name">
+								<label for="filter-model">Модель</label>
+							</div>
 							<div class="filter-set__controls">
-								<select name="filter-model" class="select">
+								<select
+									id="filter-model"
+									name="filter-model"
+									class="select"
+								>
 									<option>Выбрать</option>
 									<option value="1">ГАЗ</option>
 									<option value="2">ЗиЛ</option>
@@ -67,23 +75,29 @@
 								<div class="_grid _grid--2 _spacer _spacer--md">
 									<div class="_cell">
 										<div class="_owl _owl--xs">
-											<small>От</small>
+											<label for="price-from">
+												<small>От</small>
+											</label>
 											<input
+												id="price-from"
 												name="price-from"
 												type="number"
 												class="input _mt-xs"
-												value="1000"
+												value="100"
 											/>
 										</div>
 									</div>
 									<div class="_cell">
 										<div class="_owl _owl--xs">
-											<small>До</small>
+											<label for="price-to">
+												<small>До</small>
+											</label>
 											<input
+												id="price-to"
 												name="price-to"
 												type="number"
 												class="input _mt-xs"
-												value="600000"
+												value="3000"
 											/>
 										</div>
 									</div>
@@ -97,18 +111,33 @@
 						<div class="_grid _grid--auto _spacer _spacer--md _justify-end">
 							<div class="_cell">
 								<div class="_owl _owl--xs">
-									<small>Сортировать:</small>
-									<select name="sort" class="select" form="filter">
+									<label for="sort">
+										<small>Сортировать:</small>
+									</label>
+									<select
+										id="sort"
+										name="sort"
+										class="select"
+										form="filter"
+									>
 										<option value="1">От дешевых к дорогим</option>
 										<option value="2">От дорогих к дешевым</option>
-										<option value="3">По названию</option>
+										<option value="3">От старых к новым</option>
+										<option value="3">От новых к старым</option>
 									</select>
 								</div>
 							</div>
 							<div class="_cell">
 								<div class="_owl _owl--xs">
-									<small>Кол-во элементов на страницу:</small>
-									<select name="per_page" class="select" form="filter">
+									<label for="per_page">
+										<small>Кол-во элементов на страницу:</small>
+									</label>
+									<select
+										id="per_page"
+										name="per_page"
+										class="select"
+										form="filter"
+									>
 										<option value="1">6</option>
 										<option value="2">12</option>
 										<option value="2">24</option>
