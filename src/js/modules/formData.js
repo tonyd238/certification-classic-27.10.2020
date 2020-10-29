@@ -51,6 +51,7 @@ function formData() {
 	Object.entries(goods).forEach(([key, val]) => {
 		cardData.push(val);
 	});
+
 	cardData.pop();
 
 	cardData = [];
