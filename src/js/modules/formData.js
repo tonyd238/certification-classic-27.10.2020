@@ -38,7 +38,7 @@ function formData() {
 		sort: data.pagination.sort ? data.pagination.sort : null,
 		'per-page': data.pagination.perPage ? data.pagination.perPage : null
 	};
-	let url = document.location.origin + document.location.pathname + '/?';
+	let url = document.location.origin + document.location.pathname + '?';
 	for (const [key, value] of Object.entries(removeEmpty(sortedData))) {
 		url += key + '=' + value + '&';
 	}
