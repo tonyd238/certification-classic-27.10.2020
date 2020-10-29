@@ -212,13 +212,13 @@
                                 >
                                     <option value="1">6</option>
                                     <option value="2">12</option>
-                                    <option value="2">24</option>
-                                    <option value="2">60</option>
+                                    <option value="3">24</option>
+                                    <option value="4">60</option>
                                 </select>
                             </div>
                         </div>
                     </div>
-                    <div class="_grid _spacer _spacer--lg">
+                    <div class="_grid _spacer _spacer--lg" id="products-container">
                         <div class="_cell _cell--12 _xs:cell--6 _md:cell--4">
                             <div class="card">
                                 <div class="card__top">
@@ -424,7 +424,6 @@
         </div>
         <div class="_flex _items-center _justify-center pagination">
             <a href="#" class="pagination__item"><span class="pagination__arrow--first">pp</span></a>
-            <a href="#" class="pagination__item"><span class="pagination__arrow--prev">p</span>
             </a>
             <a href="#" class="pagination__item"><label><input form="filter" class="form__control" name="page" type="radio" value="1">1</label>
             </a>
@@ -432,7 +431,6 @@
             <a href="#" class="pagination__item"><label><input form="filter" class="form__control" name="page" type="radio" value="3">3</label></a>
             <a href="#" class="pagination__item"><label><input form="filter" class="form__control" name="page" type="radio" value="4">4</label></a>
             <a href="#" class="pagination__item"><label><input form="filter" class="form__control" name="page" type="radio" value="5">5</label></a>
-            <a href="#" class="pagination__item"><span class="pagination__arrow--next">n</span></a>
             <a href="#" class="pagination__item"><span class="pagination__arrow--last">nn</span></a>
         </div>
     </div>
@@ -454,33 +452,37 @@
     </div>
 </div>
 
-<template id="item-card">
-    <div class="card">
-        <div class="card__top">
-            <div class="card__brand">MSMODELS</div>
-            <img
-                    src="images/model2.jpg"
-                    alt="ГАЗ-21И «Волга»"
-                    class="card__image"
-            />
-        </div>
-        <div class="card__bottom">
-            <div
-                    class="_grid _justify-between _flex-nowrap _mb-sm"
-            >
-                <div class="_gcell">
-                    <div class="card__manufacturer">V43</div>
-                </div>
-                <div class="_gcell">
-                    <div class="card__year">1983 год</div>
-                </div>
+<template id="itemCard">
+    <div class="_cell _cell--12 _xs:cell--6 _md:cell--4">
+        <div class="card">
+            <div class="card__top">
+                <div class="card__brand"></div>
+                <img
+                        src="images/model4.jpg"
+                        alt="Daimler DB18 Empress by Hooper"
+                        class="card__image"
+                />
             </div>
-            <div class="card__model _mb-sm">
-                ГАЗ-21И «Волга»
-            </div>
-            <div class="_grid _justify-center _mt-auto">
-                <div class="_gcell">
-                    <div class="card__price">$1 000</div>
+            <div class="card__bottom">
+                <div
+                        class="_grid _justify-between _flex-nowrap _mb-sm"
+                >
+                    <div class="_gcell">
+                        <div class="card__manufacturer">
+
+                        </div>
+                    </div>
+                    <div class="_gcell">
+                        <div class="card__year"></div>
+                    </div>
+                </div>
+                <div class="card__model _mb-sm">
+
+                </div>
+                <div class="_grid _justify-center _mt-auto">
+                    <div class="_gcell">
+                        <div class="card__price">$1 280</div>
+                    </div>
                 </div>
             </div>
         </div>

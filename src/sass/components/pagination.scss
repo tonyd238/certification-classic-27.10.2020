@@ -1,5 +1,9 @@
 .pagination {
 	margin: microbe-rem(20) microbe-rem(0);
+	max-width: 100%;
+	flex-wrap: nowrap;
+	overflow-x: auto;
+	overflow-y: hidden;
 
 	&__item {
 		text-decoration: none;

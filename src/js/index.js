@@ -8,8 +8,7 @@ import jQuery from 'js#/lib/jquery';
 import 'sass#/style.scss';
 // scripts
 import { demo } from 'js#/modules/demo-module';
-import { formData } from 'js#/modules/formData';
-import { sorter } from 'js#/modules/sorter';
+import { form } from 'js#/modules/formData';
 
 // -----------------------------------------------------------------------------
 // Initialize
@@ -17,6 +16,5 @@ import { sorter } from 'js#/modules/sorter';
 
 jQuery(function ($) {
     demo();
-    formData();
-    sorter();
+    form();
 });
