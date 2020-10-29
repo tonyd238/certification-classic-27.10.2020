@@ -151,11 +151,11 @@ function formData() {
 			}
 		}
 		$('.pagination').empty();
-		$('.pagination').append('<a href="#" class="pagination__item"><span class="pagination__arrow--first"><input form="filter" class="form__control" name="page" type="radio" value="1">pp</span></a>');
+		$('.pagination').append('<a href="#" class="pagination__item"><label class="pagination__arrow--first"><input form="filter" class="form__control" name="page" type="radio" value="1">first</label></a>');
 		for (let i = 1; i <= pages; i++) {
 			$('.pagination').append('<a href="#" class="pagination__item"><label><input form="filter" class="form__control" name="page" type="radio" value="' + i + '">' + i + '</label></a>');
 		}
-		$('.pagination').append('<a href="#" class="pagination__item"><span class="pagination__arrow--last"><input form="filter" class="form__control" name="page" type="radio" value="' + pages + '">nn</span></a>');
+		$('.pagination').append('<a href="#" class="pagination__item"><label class="pagination__arrow--last"><input form="filter" class="form__control" name="page" type="radio" value="' + pages + '">last</label></a>');
 		$('.form__control').off('change').on('change', function () {
 			formData();
 		});
